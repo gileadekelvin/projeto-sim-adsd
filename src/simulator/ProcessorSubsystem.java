@@ -8,18 +8,24 @@ public class ProcessorSubsystem {
     public static void main(String[] args) {
       // Initialize Sim_system
       Sim_system.initialise();
-      // Add the source
+
+      // Add Entities
       Source source = new Source("Source", 50);
-      // Add the processor
-      Sink processor = new Sink("Processor", 30);
-      // Add disk 1
-      Disk disk1 = new Disk("Disk1", 60);
-      // Add disk 2
-      Disk disk2 = new Disk("Disk2", 110);
+
+      LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 30);
+
+      AplicationService appService1 = new AplicationService("AppService1", 60);
+      AplicationService appService2 = new AplicationService("AppService2", 80);
+      AplicationService appService3 = new AplicationService("AppService3", 90);
+      AplicationService appService4 = new AplicationService("AppService4", 110);
+            
       // Link the entities' ports
-      Sim_system.link_ports("Source", "Out", "Processor", "In");
-      Sim_system.link_ports("Processor", "Out1", "Disk1", "In");
-      Sim_system.link_ports("Processor", "Out2", "Disk2", "In");
+      Sim_system.link_ports("Source", "Out", "LoadBalancer", "In");
+      Sim_system.link_ports("LoadBalancer", "Out1", "AppService1", "In");
+      Sim_system.link_ports("LoadBalancer", "Out2", "AppService2", "In");
+      Sim_system.link_ports("LoadBalancer", "Out3", "AppService3", "In");
+      Sim_system.link_ports("LoadBalancer", "Out4", "AppService4", "In");
+
       // Configure trace to the simulator (default, entity, event)
       Sim_system.set_trace_detail(false, true, false);
       // Run the simulation

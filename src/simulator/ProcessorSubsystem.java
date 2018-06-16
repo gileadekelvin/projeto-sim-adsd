@@ -18,6 +18,8 @@ public class ProcessorSubsystem {
       AplicationService appService2 = new AplicationService("AppService2", 80);
       AplicationService appService3 = new AplicationService("AppService3", 90);
       AplicationService appService4 = new AplicationService("AppService4", 110);
+      
+      EmailService emailService = new EmailService("EmailService", 5);
             
       // Link the entities' ports
       Sim_system.link_ports("Source", "Out", "LoadBalancer", "In");
@@ -25,6 +27,11 @@ public class ProcessorSubsystem {
       Sim_system.link_ports("LoadBalancer", "Out2", "AppService2", "In");
       Sim_system.link_ports("LoadBalancer", "Out3", "AppService3", "In");
       Sim_system.link_ports("LoadBalancer", "Out4", "AppService4", "In");
+      
+      Sim_system.link_ports("AppService1", "Out1AppService", "EmailService", "In");
+      Sim_system.link_ports("AppService2", "Out1AppService", "EmailService", "In");
+      Sim_system.link_ports("AppService3", "Out1AppService", "EmailService", "In");
+      Sim_system.link_ports("AppService4", "Out1AppService", "EmailService", "In");
 
       // Configure trace to the simulator (default, entity, event)
       Sim_system.set_trace_detail(false, true, false);

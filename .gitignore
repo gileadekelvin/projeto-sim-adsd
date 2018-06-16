@@ -1,1 +1,3 @@
 bin/.gitignore
+sim_report
+sim_trace

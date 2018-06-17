@@ -2,14 +2,15 @@ package simulator;
 
 
 import eduni.simjava.*;
+import eduni.simjava.distributions.*;
 
 class EmailService extends Sim_entity {
   private Sim_port in;
-  private double delay;
+  private Sim_normal_obj delay;
 
-  EmailService(String name, double delay) {
+  EmailService(String name, double mean, double variance, long seed) {
     super(name);
-    this.delay = delay;
+    this.delay = new Sim_normal_obj("Delay", mean, variance, seed);
     in = new Sim_port("In");
     
     add_port(in);
@@ -20,8 +21,9 @@ class EmailService extends Sim_entity {
       Sim_event e = new Sim_event();
 
       sim_get_next(e);
-      sim_trace(1, "Email service started");      
-      sim_process(delay);
+      double delaySample = delay.sample();
+      sim_trace(1, "Email service started. Delay: " + delaySample);      
+      sim_process(delaySample);
 
       sim_completed(e);
       

@@ -15,15 +15,15 @@ public class ProcessorSubsystem {
       // Add Entities
       Source source = new Source("Source", 20, 10, seed);
 
-      LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 30);
+      LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 5, 2, seed);
       
-      AplicationService appService1 = new AplicationService("AppService1", 60);
-      AplicationService appService2 = new AplicationService("AppService2", 80);
-      AplicationService appService3 = new AplicationService("AppService3", 90);
-      AplicationService appService4 = new AplicationService("AppService4", 110);
+      AplicationService appService1 = new AplicationService("AppService1", 20, 6, seed);
+      AplicationService appService2 = new AplicationService("AppService2", 10, 6, seed);
+      AplicationService appService3 = new AplicationService("AppService3", 15, 2, seed);
+      AplicationService appService4 = new AplicationService("AppService4", 30, 8, seed);
       
-      EmailService emailService = new EmailService("EmailService", 5);
-      DatabaseService databaseService = new DatabaseService("DatabaseService", 40);
+      EmailService emailService = new EmailService("EmailService", 5, 1, seed);
+      DatabaseService databaseService = new DatabaseService("DatabaseService", 10, 3.5, seed);
             
       // Link the entities' ports
       Sim_system.link_ports("Source", "Out", "LoadBalancer", "In");

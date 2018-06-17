@@ -9,9 +9,11 @@ public class ProcessorSubsystem {
 	public static void main(String[] args) {
       // Initialize Sim_system
       Sim_system.initialise();
+      
+      long seed = 123;
 
       // Add Entities
-      Source source = new Source("Source", 50);
+      Source source = new Source("Source", 20, 10, seed);
 
       LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 30);
       

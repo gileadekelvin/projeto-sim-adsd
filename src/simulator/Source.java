@@ -1,14 +1,15 @@
 package simulator;
 
 import eduni.simjava.*;        // Import the SimJava basic package
+import eduni.simjava.distributions.*;
 
 class Source extends Sim_entity {
 	private Sim_port out;
-    private double delay;
+    private Sim_normal_obj delay;
 
-    Source(String name, double delay) {
+    Source(String name, double mean, double variance, long seed) {
       super(name);
-      this.delay = delay;
+      this.delay = new Sim_normal_obj("Delay", mean, variance, seed);
       // Port for sending requests to the load Balancer
       out = new Sim_port("Out");
       add_port(out);
@@ -18,9 +19,10 @@ class Source extends Sim_entity {
       for (int i=0; i < 100; i++) {
         // Send the processor a job
         sim_schedule(out, 0.0, 0);
-        sim_trace(1, "New request from load balancer.");
+        double delaySample = delay.sample();
+        sim_trace(1, "New request from load balancer. Delay: " + delaySample);        
         // Pause
-        sim_pause(delay);
+        sim_pause(delaySample);
       }
     }
 }

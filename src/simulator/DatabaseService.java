@@ -2,15 +2,16 @@ package simulator;
 
 
 import eduni.simjava.*;
+import eduni.simjava.distributions.*;
 
 class DatabaseService extends Sim_entity {
   private Sim_port in1DBService, in2DBService, in3DBService, in4DBService, 
   out1DBService, out2DBService, out3DBService, out4DBService;
-  private double delay;
+  private Sim_normal_obj delay;
 
-  DatabaseService(String name, double delay) {
+  DatabaseService(String name, double mean, double variance, long seed) {
     super(name);
-    this.delay = delay;
+    this.delay = new Sim_normal_obj("Delay", mean, variance, seed);
     in1DBService = new Sim_port("In1DBService");
     in2DBService = new Sim_port("In2DBService");
     in3DBService = new Sim_port("In3DBService");
@@ -38,8 +39,9 @@ class DatabaseService extends Sim_entity {
       Sim_event e = new Sim_event();
 
       sim_get_next(e);
-      sim_trace(1, "Database service started");      
-      sim_process(delay);
+      double delaySample = delay.sample();
+      sim_trace(1, "Database service started. Delay: " + delaySample);      
+      sim_process(delaySample);
       
       sim_completed(e);
       

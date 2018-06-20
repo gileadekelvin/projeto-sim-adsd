@@ -1,15 +1,15 @@
 package simulator;
 
-
 import eduni.simjava.*;
+import eduni.simjava.distributions.*;
 
 class AplicationService extends Sim_entity {
   private Sim_port in, in2, out1AppService, out2AppService;
-  private double delay;
+  private Sim_normal_obj delay;
 
-  AplicationService(String name, double delay) {
+  AplicationService(String name, double mean, double variance, long seed) {
     super(name);
-    this.delay = delay;
+    this.delay = new Sim_normal_obj("Delay", mean, variance, seed);
     // Port for receiving events from the processor
     in = new Sim_port("In");
     in2 = new Sim_port("In2");
@@ -30,9 +30,10 @@ class AplicationService extends Sim_entity {
       // Get the next event
       sim_get_next(e);
             
-      sim_trace(1, "Aplication service request started");
+      double delaySample = delay.sample();
+      sim_trace(1, "Aplication service request started. Delay: " + delaySample);
       // Process the event
-      sim_process(delay);
+      sim_process(delaySample);
       // The event has completed service
       sim_completed(e);
       

@@ -1,15 +1,19 @@
 package simulator;
 
 import eduni.simjava.*;
+import eduni.simjava.distributions.*;
 
 //The class for the processor
 class LoadBalancer extends Sim_entity {
   private Sim_port in, out1, out2, out3, out4;
-  private double delay;
+  private Sim_normal_obj delay;
+  private Sim_random_obj prob;
 
-  LoadBalancer(String name, double delay) {
+  LoadBalancer(String name, double mean, double variance, long seed) {
     super(name);
-    this.delay = delay;
+    this.delay = new Sim_normal_obj("Delay", mean, variance, seed);
+    this.prob = new Sim_random_obj("Probability", seed);
+    
     // Port for receiving events from the source
     in = new Sim_port("In");
     
@@ -27,30 +31,32 @@ class LoadBalancer extends Sim_entity {
   }
 
   public void body() {
-    int i = 0;
     while (Sim_system.running()) {
       Sim_event e = new Sim_event();
       // Get the next event
       sim_get_next(e);
       // Process the event
-      sim_process(delay);
+      double delaySample = delay.sample();
+      sim_trace(1, "Load balancer service started. Delay: " + delaySample);
+      sim_process(delaySample);
       // The event has completed service
       sim_completed(e);
       
-      if ((i % 4) == 0) {
+      double probSample = prob.sample();
+
+      if (probSample < 0.25) {
     	sim_trace(1, "Service1 selected to receive the request.");
     	sim_schedule(out1, 0.0, 1);
-      } else if ((i % 4) == 1) {
+      } else if (probSample < 0.5) {
     	sim_trace(1, "AppService2 selected to receive the request.");
       	sim_schedule(out2, 0.0, 1);
-      } else if ((i % 4) == 2) {
+      } else if (probSample < 0.75) {
     	sim_trace(1, "AppService3 selected to receive the request.");
       	sim_schedule(out3, 0.0, 1);
       } else {        
     	sim_trace(1, "AppService4 selected to receive the request.");
     	sim_schedule(out4, 0.0, 1);      
       }      
-      i++;
     }
   }
 }

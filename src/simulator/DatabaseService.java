@@ -59,20 +59,22 @@ class DatabaseService extends Sim_entity {
       sim_completed(e);
       
       try {
-    	  String nome = Sim_system.get_entity(e.get_src()).get_name();
-    	  sim_trace(1, "Database responds to " + nome);
-    	  if (nome.equals("AppService1")) {
-    		  sim_schedule(out1DBService, 0.0, 1);
-    	  } else if (nome.equals("AppService2")) {
-    		  sim_schedule(out2DBService, 0.0, 1);
-    	  } else if (nome.equals("AppService3")) {    		  
-    		  sim_schedule(out3DBService, 0.0, 1);
-          } else {        	          	  
-        	  sim_schedule(out4DBService, 0.0, 1);        	  
-          }    	      	  
+    	  if (e.get_src() != -1) {    		      	  
+	    	  String nome = Sim_system.get_entity(e.get_src()).get_name();
+	    	  sim_trace(1, "Database responds to " + nome);
+	    	  if (nome.equals("AppService1")) {
+	    		  sim_schedule(out1DBService, 0.0, 1);
+	    	  } else if (nome.equals("AppService2")) {
+	    		  sim_schedule(out2DBService, 0.0, 1);
+	    	  } else if (nome.equals("AppService3")) {    		  
+	    		  sim_schedule(out3DBService, 0.0, 1);
+	          } else {        	          	  
+	        	  sim_schedule(out4DBService, 0.0, 1);        	  
+	          }
+    	  }
       } catch(eduni.simjava.Sim_exception exc) {
     	  System.out.println("Algo errado aconteceu!");
-    	  System.out.println(exc.getMessage());
+    	  System.out.println(exc.getMessage());    	  
       }
                       
     }

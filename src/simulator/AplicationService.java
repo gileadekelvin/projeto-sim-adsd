@@ -50,14 +50,16 @@ class AplicationService extends Sim_entity {
       sim_completed(e);
       
       try {
-    	  String nome = Sim_system.get_entity(e.get_src()).get_name();    	  
-    	  if (nome.equals("DatabaseService")) {
-    		  sim_trace(1, "Send request to EmailService");
-    		  sim_schedule(out1AppService, 0.0, 1);    	  
-          } else {
-          	  sim_trace(1, "Send request to DatabaseService");
-        	  sim_schedule(out2AppService, 0.0, 1);        	  
-          }    	      	  
+    	  if (e.get_src() != -1) {    		  
+	    	  String nome = Sim_system.get_entity(e.get_src()).get_name();    	  
+	    	  if (nome.equals("DatabaseService")) {
+	    		  sim_trace(1, "Send request to EmailService");
+	    		  sim_schedule(out1AppService, 0.0, 1);    	  
+	          } else {
+	          	  sim_trace(1, "Send request to DatabaseService");
+	        	  sim_schedule(out2AppService, 0.0, 1);        	  
+	          }    	      	  
+    	  }
       } catch(eduni.simjava.Sim_exception exc) {
     	  System.out.println("Algo errado aconteceu!");
     	  System.out.println(exc.getMessage());

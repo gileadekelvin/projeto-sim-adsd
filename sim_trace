@@ -1100,9 +1100,9 @@ u: EmailService at 4005.722816135379: Email service started. Delay: 3.9703114221
 u: EmailService at 4009.693127557519: Email service completed AppService1
 u: LoadBalancer at 4024.94110016629: Load balancer service started. Delay: 4.561217038610245
 u: LoadBalancer at 4024.94110016629: AppService4 selected to receive the request.
-u: AppService2 at 4024.94110016629: Aplication service request started. Delay: 5.972100624246403
 u: AppService1 at 4024.94110016629: Aplication service request started. Delay: 3.732117549720746
-u: AppService4 at 4024.94110016629: Aplication service request started. Delay: 5.28817999933127
+u: AppService2 at 4024.94110016629: Aplication service request started. Delay: 5.972100624246403
 u: AppService3 at 4024.94110016629: Aplication service request started. Delay: 3.4329857307393183
-u: EmailService at 4024.94110016629: Email service started. Delay: 4.689733592532189
 u: DatabaseService at 4024.94110016629: Database service started. Delay: 3.7596686741979126
+u: EmailService at 4024.94110016629: Email service started. Delay: 4.689733592532189
+u: AppService4 at 4024.94110016629: Aplication service request started. Delay: 5.28817999933127

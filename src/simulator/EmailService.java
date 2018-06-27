@@ -40,9 +40,12 @@ class EmailService extends Sim_entity {
       sim_completed(e);
       
       try {
-    	  sim_trace(1, "Email service completed " + Sim_system.get_entity(e.get_src()).get_name() );    	  
+    	  if (e.get_src() != -1) {
+    		  sim_trace(1, "Email service completed " + Sim_system.get_entity(e.get_src()).get_name() );
+    	  }
       }catch(eduni.simjava.Sim_exception exc) {
     	  System.out.println("Algo errado aconteceu!");
+    	  System.out.println(exc.getMessage());
       }
             
     }

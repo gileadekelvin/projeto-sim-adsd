@@ -1,0 +1,1108 @@
+u: Source at 0.0: New request from load balancer. Delay: 39.8409235135658
+u: LoadBalancer at 0.0: Load balancer service started. Delay: 4.870114592720481
+u: LoadBalancer at 4.870114592720481: AppService3 selected to receive the request.
+u: AppService3 at 4.870114592720481: Aplication service request started. Delay: 3.9589266278178106
+u: AppService3 at 8.829041220538292: Send request to DatabaseService
+u: DatabaseService at 8.829041220538292: Database service started. Delay: 3.9288588325422613
+u: DatabaseService at 12.757900053080553: Database responds to AppService3
+u: AppService3 at 12.757900053080553: Aplication service request started. Delay: 4.532876955028706
+u: AppService3 at 17.29077700810926: Send request to EmailService
+u: EmailService at 17.29077700810926: Email service started. Delay: 4.9081571477354755
+u: EmailService at 22.198934155844736: Email service completed AppService3
+u: Source at 39.8409235135658: New request from load balancer. Delay: 42.0638235724039
+u: LoadBalancer at 39.8409235135658: Load balancer service started. Delay: 6.685104890505826
+u: LoadBalancer at 46.526028404071624: AppService4 selected to receive the request.
+u: AppService4 at 46.526028404071624: Aplication service request started. Delay: 2.9178532556356207
+u: AppService4 at 49.443881659707245: Send request to DatabaseService
+u: DatabaseService at 49.443881659707245: Database service started. Delay: 4.922969960292314
+u: DatabaseService at 54.36685161999956: Database responds to AppService4
+u: AppService3 at 54.36685161999956: Aplication service request started. Delay: 4.278363858352697
+u: AppService3 at 58.645215478352256: Send request to EmailService
+u: EmailService at 58.645215478352256: Email service started. Delay: 6.191549095087284
+u: EmailService at 64.83676457343954: Email service completed AppService3
+u: Source at 81.90474708596969: New request from load balancer. Delay: 41.078098587586034
+u: LoadBalancer at 81.90474708596969: Load balancer service started. Delay: 5.88026381066701
+u: LoadBalancer at 87.78501089663669: AppService4 selected to receive the request.
+u: AppService4 at 87.78501089663669: Aplication service request started. Delay: 4.065753910057412
+u: AppService4 at 91.8507648066941: Send request to DatabaseService
+u: DatabaseService at 91.8507648066941: Database service started. Delay: 4.482140345657778
+u: DatabaseService at 96.33290515235188: Database responds to AppService4
+u: AppService3 at 96.33290515235188: Aplication service request started. Delay: 4.004243308492861
+u: AppService3 at 100.33714846084474: Send request to EmailService
+u: EmailService at 100.33714846084474: Email service started. Delay: 5.622440509755754
+u: EmailService at 105.95958897060049: Email service completed AppService3
+u: Source at 122.98284567355572: New request from load balancer. Delay: 40.016434263125674
+u: LoadBalancer at 122.98284567355572: Load balancer service started. Delay: 5.013418519652178
+u: LoadBalancer at 127.99626419320789: AppService2 selected to receive the request.
+u: AppService2 at 127.99626419320789: Aplication service request started. Delay: 5.887515937715047
+u: AppService2 at 133.88378013092293: Send request to DatabaseService
+u: DatabaseService at 133.88378013092293: Database service started. Delay: 4.007349625901824
+u: DatabaseService at 137.89112975682474: Database responds to AppService2
+u: AppService2 at 137.89112975682474: Aplication service request started. Delay: 7.45934364321944
+u: AppService2 at 145.35047340004417: Send request to EmailService
+u: EmailService at 145.35047340004417: Email service started. Delay: 5.0094883262395395
+u: EmailService at 150.3599617262837: Email service completed AppService2
+u: Source at 162.99927993668138: New request from load balancer. Delay: 43.65899533883299
+u: LoadBalancer at 162.99927993668138: Load balancer service started. Delay: 7.987557183787619
+u: LoadBalancer at 170.986837120469: Service1 selected to receive the request.
+u: AppService1 at 170.986837120469: Aplication service request started. Delay: 4.9081571477354755
+u: AppService1 at 175.89499426820447: Send request to DatabaseService
+u: DatabaseService at 175.89499426820447: Database service started. Delay: 5.636352461397086
+u: DatabaseService at 181.53134672960155: Database responds to AppService1
+u: AppService1 at 181.53134672960155: Aplication service request started. Delay: 6.191549095087284
+u: AppService1 at 187.72289582468883: Send request to EmailService
+u: EmailService at 187.72289582468883: Email service started. Delay: 7.112521943838809
+u: EmailService at 194.83541776852763: Email service completed AppService1
+u: Source at 206.65827527551437: New request from load balancer. Delay: 40.688559971504326
+u: LoadBalancer at 206.65827527551437: Load balancer service started. Delay: 5.562206862496975
+u: LoadBalancer at 212.22048213801133: AppService3 selected to receive the request.
+u: AppService3 at 212.22048213801133: Aplication service request started. Delay: 4.944748534076714
+u: AppService3 at 217.16523067208806: Send request to DatabaseService
+u: DatabaseService at 217.16523067208806: Database service started. Delay: 4.3079333805737985
+u: DatabaseService at 221.47316405266184: Database responds to AppService3
+u: AppService3 at 221.47316405266184: Aplication service request started. Delay: 4.177785420166754
+u: AppService3 at 225.6509494728286: Send request to EmailService
+u: EmailService at 225.6509494728286: Email service started. Delay: 5.397540284901224
+u: EmailService at 231.0484897577298: Email service completed AppService3
+u: Source at 247.3468352470187: New request from load balancer. Delay: 38.89075377082207
+u: LoadBalancer at 247.3468352470187: Load balancer service started. Delay: 4.094304246469251
+u: LoadBalancer at 251.44113949348795: AppService4 selected to receive the request.
+u: AppService4 at 251.44113949348795: Aplication service request started. Delay: 3.5567277167053946
+u: AppService4 at 254.99786721019333: Send request to DatabaseService
+u: DatabaseService at 254.99786721019333: Database service started. Delay: 3.50393000555457
+u: DatabaseService at 258.5017972157479: Database responds to AppService4
+u: AppService3 at 258.5017972157479: Aplication service request started. Delay: 3.7135938551700347
+u: AppService3 at 262.2153910709179: Send request to EmailService
+u: EmailService at 262.2153910709179: Email service started. Delay: 4.359576390986548
+u: EmailService at 266.57496746190446: Email service completed AppService3
+u: Source at 286.2375890178408: New request from load balancer. Delay: 42.36705600435746
+u: LoadBalancer at 286.2375890178408: Load balancer service started. Delay: 6.932693134422308
+u: LoadBalancer at 293.1702821522631: AppService4 selected to receive the request.
+u: AppService4 at 293.1702821522631: Aplication service request started. Delay: 3.008486616985722
+u: AppService4 at 296.17876876924885: Send request to DatabaseService
+u: DatabaseService at 296.17876876924885: Database service started. Delay: 5.058579626458463
+u: DatabaseService at 301.23734839570733: Database responds to AppService4
+u: AppService3 at 301.23734839570733: Aplication service request started. Delay: 4.611171232294447
+u: AppService3 at 305.8485196280018: Send request to EmailService
+u: EmailService at 305.8485196280018: Email service started. Delay: 6.366620421302698
+u: EmailService at 312.21514004930447: Email service completed AppService3
+u: Source at 328.6046450221982: New request from load balancer. Delay: 42.50329200880899
+u: LoadBalancer at 328.6046450221982: Load balancer service started. Delay: 7.0439293662562426
+u: LoadBalancer at 335.64857438845445: AppService4 selected to receive the request.
+u: AppService4 at 335.64857438845445: Aplication service request started. Delay: 4.889497068153428
+u: AppService4 at 340.5380714566079: Send request to DatabaseService
+u: DatabaseService at 340.5380714566079: Database service started. Delay: 5.119506219845783
+u: DatabaseService at 345.6575776764537: Database responds to AppService4
+u: AppService3 at 345.6575776764537: Aplication service request started. Delay: 4.646347217387423
+u: AppService3 at 350.3039248938411: Send request to EmailService
+u: EmailService at 350.3039248938411: Email service started. Delay: 6.445276315146112
+u: EmailService at 356.7492012089872: Email service completed AppService3
+u: Source at 371.1079370310072: New request from load balancer. Delay: 40.18439637242451
+u: LoadBalancer at 371.1079370310072: Load balancer service started. Delay: 5.150559007620086
+u: LoadBalancer at 376.2584960386273: Service1 selected to receive the request.
+u: AppService1 at 376.2584960386273: Aplication service request started. Delay: 5.622440509755754
+u: AppService1 at 381.88093654838303: Send request to DatabaseService
+u: DatabaseService at 381.88093654838303: Database service started. Delay: 4.082464564709114
+u: DatabaseService at 385.9634011130922: Database responds to AppService1
+u: AppService1 at 385.9634011130922: Aplication service request started. Delay: 5.0094883262395395
+u: AppService1 at 390.9728894393317: Send request to EmailService
+u: EmailService at 390.9728894393317: Email service started. Delay: 5.106461295256881
+u: EmailService at 396.0793507345886: Email service completed AppService1
+u: Source at 411.2923334034317: New request from load balancer. Delay: 40.12624843371273
+u: LoadBalancer at 411.2923334034317: Load balancer service started. Delay: 5.103081414473924
+u: LoadBalancer at 416.39541481790565: Service1 selected to receive the request.
+u: AppService1 at 416.39541481790565: Aplication service request started. Delay: 7.112521943838809
+u: AppService1 at 423.5079367617445: Send request to DatabaseService
+u: DatabaseService at 423.5079367617445: Database service started. Delay: 4.056460015966907
+u: DatabaseService at 427.5643967777114: Database responds to AppService1
+u: AppService1 at 427.5643967777114: Aplication service request started. Delay: 5.397540284901224
+u: AppService1 at 432.9619370626126: Send request to EmailService
+u: EmailService at 432.9619370626126: Email service started. Delay: 5.072889567188812
+u: EmailService at 438.03482662980144: Email service completed AppService1
+u: Source at 451.4185818371444: New request from load balancer. Delay: 41.77270800006557
+u: LoadBalancer at 451.4185818371444: Load balancer service started. Delay: 6.447410021036767
+u: LoadBalancer at 457.8659918581812: Service1 selected to receive the request.
+u: AppService1 at 457.8659918581812: Aplication service request started. Delay: 4.359576390986548
+u: AppService1 at 462.22556824916774: Send request to DatabaseService
+u: DatabaseService at 462.22556824916774: Database service started. Delay: 4.792779118480864
+u: DatabaseService at 467.0183473676486: Database responds to AppService1
+u: AppService1 at 467.0183473676486: Aplication service request started. Delay: 6.366620421302698
+u: AppService1 at 473.38496778895126: Send request to EmailService
+u: EmailService at 473.38496778895126: Email service started. Delay: 6.02347344103246
+u: EmailService at 479.40844122998374: Email service completed AppService1
+u: Source at 493.19128983721: New request from load balancer. Delay: 37.29524502386216
+u: LoadBalancer at 493.19128983721: Load balancer service started. Delay: 2.791576809736196
+u: LoadBalancer at 495.98286664694615: AppService3 selected to receive the request.
+u: AppService3 at 495.98286664694615: Aplication service request started. Delay: 4.0476109386334125
+u: AppService3 at 500.03047758557955: Send request to DatabaseService
+u: DatabaseService at 500.03047758557955: Database service started. Delay: 2.7903968021749916
+u: DatabaseService at 502.82087438775454: Database responds to AppService3
+u: AppService3 at 502.82087438775454: Aplication service request started. Delay: 4.032597205416945
+u: AppService3 at 506.8534715931715: Send request to EmailService
+u: EmailService at 506.8534715931715: Email service started. Delay: 3.438408986434835
+u: EmailService at 510.2918805796063: Email service completed AppService3
+u: Source at 530.4865348610722: New request from load balancer. Delay: 40.15313148509432
+u: LoadBalancer at 530.4865348610722: Load balancer service started. Delay: 5.125031334011895
+u: LoadBalancer at 535.611566195084: AppService4 selected to receive the request.
+u: AppService4 at 535.611566195084: Aplication service request started. Delay: 3.355570840333508
+u: AppService4 at 538.9671370354175: Send request to DatabaseService
+u: DatabaseService at 538.9671370354175: Database service started. Delay: 4.068482482033278
+u: DatabaseService at 543.0356195174508: Database responds to AppService4
+u: AppService3 at 543.0356195174508: Aplication service request started. Delay: 4.457711237462841
+u: AppService3 at 547.4933307549136: Send request to EmailService
+u: EmailService at 547.4933307549136: Email service started. Delay: 5.088410504140612
+u: EmailService at 552.5817412590542: Email service completed AppService3
+u: Source at 570.6396663461665: New request from load balancer. Delay: 43.06735503782472
+u: LoadBalancer at 570.6396663461665: Load balancer service started. Delay: 7.504484900875321
+u: LoadBalancer at 578.1441512470418: Service1 selected to receive the request.
+u: AppService1 at 578.1441512470418: Aplication service request started. Delay: 6.445276315146112
+u: AppService1 at 584.5894275621879: Send request to DatabaseService
+u: DatabaseService at 584.5894275621879: Database service started. Delay: 5.371762875140503
+u: DatabaseService at 589.9611904373284: Database responds to AppService1
+u: AppService1 at 589.9611904373284: Aplication service request started. Delay: 5.106461295256881
+u: AppService1 at 595.0676517325852: Send request to EmailService
+u: EmailService at 595.0676517325852: Email service started. Delay: 6.7709382567882574
+u: EmailService at 601.8385899893734: Email service completed AppService1
+u: Source at 613.7070213839912: New request from load balancer. Delay: 39.6599248403161
+u: LoadBalancer at 613.7070213839912: Load balancer service started. Delay: 4.7223297948596485
+u: LoadBalancer at 618.4293511788509: Service1 selected to receive the request.
+u: AppService1 at 618.4293511788509: Aplication service request started. Delay: 5.072889567188812
+u: AppService1 at 623.5022407460397: Send request to DatabaseService
+u: DatabaseService at 623.5022407460397: Database service started. Delay: 3.847913765097543
+u: DatabaseService at 627.3501545111372: Database responds to AppService1
+u: AppService1 at 627.3501545111372: Aplication service request started. Delay: 6.02347344103246
+u: AppService1 at 633.3736279521697: Send request to EmailService
+u: EmailService at 633.3736279521697: Email service started. Delay: 4.803657515011798
+u: EmailService at 638.1772854671815: Email service completed AppService1
+u: Source at 653.3669462243073: New request from load balancer. Delay: 40.91092421373628
+u: LoadBalancer at 653.3669462243073: Load balancer service started. Delay: 5.743766505999951
+u: LoadBalancer at 659.1107127303072: Service1 selected to receive the request.
+u: AppService1 at 659.1107127303072: Aplication service request started. Delay: 3.438408986434835
+u: AppService1 at 662.5491217167421: Send request to DatabaseService
+u: DatabaseService at 662.5491217167421: Database service started. Delay: 4.407377692852974
+u: DatabaseService at 666.956499409595: Database responds to AppService1
+u: AppService1 at 666.956499409595: Aplication service request started. Delay: 5.088410504140612
+u: AppService1 at 672.0449099137356: Send request to EmailService
+u: EmailService at 672.0449099137356: Email service started. Delay: 5.525922340011991
+u: EmailService at 677.5708322537477: Email service completed AppService1
+u: Source at 694.2778704380436: New request from load balancer. Delay: 43.01027681747079
+u: LoadBalancer at 694.2778704380436: Load balancer service started. Delay: 7.457880729110897
+u: LoadBalancer at 701.7357511671545: AppService2 selected to receive the request.
+u: AppService2 at 701.7357511671545: Aplication service request started. Delay: 6.762330822069726
+u: AppService2 at 708.4980819892243: Send request to DatabaseService
+u: DatabaseService at 708.4980819892243: Database service started. Delay: 5.346236718991283
+u: DatabaseService at 713.8443187082155: Database responds to AppService2
+u: AppService2 at 713.8443187082155: Aplication service request started. Delay: 6.0116207788999665
+u: AppService2 at 719.8559394871155: Send request to EmailService
+u: EmailService at 719.8559394871155: Email service started. Delay: 6.737984130902051
+u: EmailService at 726.5939236180176: Email service completed AppService2
+u: Source at 737.2881472555143: New request from load balancer. Delay: 38.14423504094699
+u: LoadBalancer at 737.2881472555143: Load balancer service started. Delay: 3.484774255927735
+u: LoadBalancer at 740.7729215114421: Service1 selected to receive the request.
+u: AppService1 at 740.7729215114421: Aplication service request started. Delay: 6.7709382567882574
+u: AppService1 at 747.5438597682303: Send request to DatabaseService
+u: DatabaseService at 747.5438597682303: Database service started. Delay: 3.1700766802590707
+u: DatabaseService at 750.7139364484893: Database responds to AppService1
+u: AppService1 at 750.7139364484893: Aplication service request started. Delay: 4.803657515011798
+u: AppService1 at 755.5175939635011: Send request to EmailService
+u: EmailService at 755.5175939635011: Email service started. Delay: 3.928573601338069
+u: EmailService at 759.4461675648391: Email service completed AppService1
+u: Source at 775.4323822964614: New request from load balancer. Delay: 41.86790871177486
+u: LoadBalancer at 775.4323822964614: Load balancer service started. Delay: 6.525141076649284
+u: LoadBalancer at 781.9575233731107: AppService2 selected to receive the request.
+u: AppService2 at 781.9575233731107: Aplication service request started. Delay: 8.587300416418772
+u: AppService2 at 790.5448237895295: Send request to DatabaseService
+u: DatabaseService at 790.5448237895295: Database service started. Delay: 4.835354171058528
+u: DatabaseService at 795.380177960588: Database responds to AppService2
+u: AppService2 at 795.380177960588: Aplication service request started. Delay: 6.486885425104325
+u: AppService2 at 801.8670633856923: Send request to EmailService
+u: EmailService at 801.8670633856923: Email service started. Delay: 6.078437597564861
+u: EmailService at 807.9455009832571: Email service completed AppService2
+u: Source at 817.3002910082362: New request from load balancer. Delay: 41.51370723417445
+u: LoadBalancer at 817.3002910082362: Load balancer service started. Delay: 6.235936781229
+u: LoadBalancer at 823.5362277894652: AppService4 selected to receive the request.
+u: AppService4 at 823.5362277894652: Aplication service request started. Delay: 2.42718771034007
+u: AppService4 at 825.9634154998053: Send request to DatabaseService
+u: DatabaseService at 825.9634154998053: Database service started. Delay: 4.676950454729451
+u: DatabaseService at 830.6403659545347: Database responds to AppService4
+u: AppService3 at 830.6403659545347: Aplication service request started. Delay: 3.301635268123099
+u: AppService3 at 833.9420012226577: Send request to EmailService
+u: EmailService at 833.9420012226577: Email service started. Delay: 5.8739392791249
+u: EmailService at 839.8159405017826: Email service completed AppService3
+u: Source at 858.8139982424107: New request from load balancer. Delay: 37.16349970878193
+u: LoadBalancer at 858.8139982424107: Load balancer service started. Delay: 2.6840072104199453
+u: LoadBalancer at 861.4980054528306: AppService2 selected to receive the request.
+u: AppService2 at 861.4980054528306: Aplication service request started. Delay: 5.215644469342682
+u: AppService2 at 866.7136499221733: Send request to DatabaseService
+u: DatabaseService at 866.7136499221733: Database service started. Delay: 2.7314785061276883
+u: DatabaseService at 869.445128428301: Database responds to AppService2
+u: AppService2 at 869.445128428301: Aplication service request started. Delay: 7.6737613521294925
+u: AppService2 at 877.1188897804305: Send request to EmailService
+u: EmailService at 877.1188897804305: Email service started. Delay: 3.3623457933087946
+u: EmailService at 880.4812355737394: Email service completed AppService2
+u: Source at 895.9774979511926: New request from load balancer. Delay: 37.540712190585964
+u: LoadBalancer at 895.9774979511926: Load balancer service started. Delay: 2.9919999120961993
+u: LoadBalancer at 898.9694978632888: AppService4 selected to receive the request.
+u: AppService4 at 898.9694978632888: Aplication service request started. Delay: 4.222342464588894
+u: AppService4 at 903.1918403278777: Send request to DatabaseService
+u: DatabaseService at 903.1918403278777: Database service started. Delay: 2.900173056382732
+u: DatabaseService at 906.0920133842604: Database responds to AppService4
+u: AppService3 at 906.0920133842604: Aplication service request started. Delay: 4.039538379436687
+u: AppService3 at 910.1315517636971: Send request to EmailService
+u: EmailService at 910.1315517636971: Email service started. Delay: 3.580129521220039
+u: EmailService at 913.7116812849171: Email service completed AppService3
+u: Source at 933.5182101417786: New request from load balancer. Delay: 39.871986061699296
+u: LoadBalancer at 933.5182101417786: Load balancer service started. Delay: 4.895477057066382
+u: LoadBalancer at 938.413687198845: Service1 selected to receive the request.
+u: AppService1 at 938.413687198845: Aplication service request started. Delay: 5.525922340011991
+u: AppService1 at 943.939609538857: Send request to DatabaseService
+u: DatabaseService at 943.939609538857: Database service started. Delay: 3.9427504263784328
+u: DatabaseService at 947.8823599652354: Database responds to AppService1
+u: AppService1 at 947.8823599652354: Aplication service request started. Delay: 6.737984130902051
+u: AppService1 at 954.6203440961375: Send request to EmailService
+u: EmailService at 954.6203440961375: Email service started. Delay: 4.926091118262065
+u: EmailService at 959.5464352143996: Email service completed AppService1
+u: Source at 973.3901962034779: New request from load balancer. Delay: 40.64271296988057
+u: LoadBalancer at 973.3901962034779: Load balancer service started. Delay: 5.524772942425392
+u: LoadBalancer at 978.9149691459033: AppService3 selected to receive the request.
+u: AppService3 at 978.9149691459033: Aplication service request started. Delay: 4.791987665226705
+u: AppService3 at 983.70695681113: Send request to DatabaseService
+u: DatabaseService at 983.70695681113: Database service started. Delay: 4.287429978134747
+u: DatabaseService at 987.9943867892647: Database responds to AppService3
+u: AppService3 at 987.9943867892647: Aplication service request started. Delay: 3.9121929713390298
+u: AppService3 at 991.9065797606037: Send request to EmailService
+u: EmailService at 991.9065797606037: Email service started. Delay: 5.371070506172213
+u: EmailService at 997.2776502667759: Email service completed AppService3
+u: Source at 1014.0329091733585: New request from load balancer. Delay: 42.59630130329744
+u: LoadBalancer at 1014.0329091733585: Load balancer service started. Delay: 7.119871137200558
+u: LoadBalancer at 1021.152780310559: Service1 selected to receive the request.
+u: AppService1 at 1021.152780310559: Aplication service request started. Delay: 3.928573601338069
+u: AppService1 at 1025.0813539118972: Send request to DatabaseService
+u: DatabaseService at 1025.0813539118972: Database service started. Delay: 5.1611012408488754
+u: DatabaseService at 1030.242455152746: Database responds to AppService1
+u: AppService1 at 1030.242455152746: Aplication service request started. Delay: 6.078437597564861
+u: AppService1 at 1036.320892750311: Send request to EmailService
+u: EmailService at 1036.320892750311: Email service started. Delay: 6.498975256356153
+u: EmailService at 1042.819868006667: Email service completed AppService1
+u: Source at 1056.629210476656: New request from load balancer. Delay: 40.25273380228678
+u: LoadBalancer at 1056.629210476656: Load balancer service started. Delay: 5.206356285452018
+u: LoadBalancer at 1061.835566762108: Service1 selected to receive the request.
+u: AppService1 at 1061.835566762108: Aplication service request started. Delay: 5.8739392791249
+u: AppService1 at 1067.709506041233: Send request to DatabaseService
+u: DatabaseService at 1067.709506041233: Database service started. Delay: 4.113025992425046
+u: DatabaseService at 1071.822532033658: Database responds to AppService1
+u: AppService1 at 1071.822532033658: Aplication service request started. Delay: 3.3623457933087946
+u: AppService1 at 1075.1848778269668: Send request to EmailService
+u: EmailService at 1075.1848778269668: Email service started. Delay: 5.145915928783589
+u: EmailService at 1080.3307937557504: Email service completed AppService1
+u: Source at 1096.8819442789427: New request from load balancer. Delay: 41.806775678772674
+u: LoadBalancer at 1096.8819442789427: Load balancer service started. Delay: 6.4752261642212625
+u: LoadBalancer at 1103.357170443164: AppService4 selected to receive the request.
+u: AppService4 at 1103.357170443164: Aplication service request started. Delay: 4.2926944347748455
+u: AppService4 at 1107.6498648779389: Send request to DatabaseService
+u: DatabaseService at 1107.6498648779389: Database service started. Delay: 4.808014647565805
+u: DatabaseService at 1112.4578795255047: Database responds to AppService4
+u: AppService3 at 1112.4578795255047: Aplication service request started. Delay: 4.235199620630514
+u: AppService3 at 1116.6930791461352: Send request to EmailService
+u: EmailService at 1116.6930791461352: Email service started. Delay: 6.043142424504674
+u: EmailService at 1122.7362215706398: Email service completed AppService3
+u: Source at 1138.6887199577154: New request from load balancer. Delay: 44.43104151526745
+u: LoadBalancer at 1138.6887199577154: Load balancer service started. Delay: 8.617930247164686
+u: LoadBalancer at 1147.30665020488: Service1 selected to receive the request.
+u: AppService1 at 1147.30665020488: Aplication service request started. Delay: 3.580129521220039
+u: AppService1 at 1150.8867797261: Send request to DatabaseService
+u: DatabaseService at 1150.8867797261: Database service started. Delay: 5.98162200785234
+u: DatabaseService at 1156.8684017339524: Database responds to AppService1
+u: AppService1 at 1156.8684017339524: Aplication service request started. Delay: 4.926091118262065
+u: AppService1 at 1161.7944928522145: Send request to EmailService
+u: EmailService at 1161.7944928522145: Email service started. Delay: 7.558263011630071
+u: EmailService at 1169.3527558638445: Email service completed AppService1
+u: Source at 1183.1197614729829: New request from load balancer. Delay: 39.925092687761875
+u: LoadBalancer at 1183.1197614729829: Load balancer service started. Delay: 4.9388384356710855
+u: LoadBalancer at 1188.058599908654: Service1 selected to receive the request.
+u: AppService1 at 1188.058599908654: Aplication service request started. Delay: 5.371070506172213
+u: AppService1 at 1193.4296704148262: Send request to DatabaseService
+u: DatabaseService at 1193.4296704148262: Database service started. Delay: 3.9665004315647505
+u: DatabaseService at 1197.396170846391: Database responds to AppService1
+u: AppService1 at 1197.396170846391: Aplication service request started. Delay: 6.498975256356153
+u: AppService1 at 1203.895146102747: Send request to EmailService
+u: EmailService at 1203.895146102747: Email service started. Delay: 4.956752243115048
+u: EmailService at 1208.851898345862: Email service completed AppService1
+u: Source at 1223.0448541607448: New request from load balancer. Delay: 40.05013607753986
+u: LoadBalancer at 1223.0448541607448: Load balancer service started. Delay: 5.040935935892425
+u: LoadBalancer at 1228.085790096637: AppService2 selected to receive the request.
+u: AppService2 at 1228.085790096637: Aplication service request started. Delay: 7.770094754718934
+u: AppService2 at 1235.855884851356: Send request to DatabaseService
+u: DatabaseService at 1235.855884851356: Database service started. Delay: 4.022421535500866
+u: DatabaseService at 1239.8783063868568: Database responds to AppService2
+u: AppService2 at 1239.8783063868568: Aplication service request started. Delay: 6.13038792536757
+u: AppService2 at 1246.0086943122244: Send request to EmailService
+u: EmailService at 1246.0086943122244: Email service started. Delay: 5.028946077863751
+u: EmailService at 1251.0376403900882: Email service completed AppService2
+u: Source at 1263.0949902382847: New request from load balancer. Delay: 41.688166870993925
+u: LoadBalancer at 1263.0949902382847: Load balancer service started. Delay: 6.378382478201996
+u: LoadBalancer at 1269.4733727164867: AppService4 selected to receive the request.
+u: AppService4 at 1269.4733727164867: Aplication service request started. Delay: 3.095221877266824
+u: AppService4 at 1272.5685945937535: Send request to DatabaseService
+u: DatabaseService at 1272.5685945937535: Database service started. Delay: 4.754971176181106
+u: DatabaseService at 1277.3235657699345: Database responds to AppService4
+u: AppService3 at 1277.3235657699345: Aplication service request started. Delay: 4.7772501321025755
+u: AppService3 at 1282.100815902037: Send request to EmailService
+u: EmailService at 1282.100815902037: Email service started. Delay: 5.97466359740535
+u: EmailService at 1288.0754794994425: Email service completed AppService3
+u: Source at 1304.7831571092786: New request from load balancer. Delay: 38.949877142826175
+u: LoadBalancer at 1304.7831571092786: Load balancer service started. Delay: 4.1425782775635165
+u: LoadBalancer at 1308.925735386842: Service1 selected to receive the request.
+u: AppService1 at 1308.925735386842: Aplication service request started. Delay: 5.145915928783589
+u: AppService1 at 1314.0716513156256: Send request to DatabaseService
+u: DatabaseService at 1314.0716513156256: Database service started. Delay: 3.5303707813266048
+u: DatabaseService at 1317.6020220969522: Database responds to AppService1
+u: AppService1 at 1317.6020220969522: Aplication service request started. Delay: 6.043142424504674
+u: AppService1 at 1323.6451645214568: Send request to EmailService
+u: EmailService at 1323.6451645214568: Email service started. Delay: 4.3937112857285126
+u: EmailService at 1328.0388758071854: Email service completed AppService1
+u: Source at 1343.7330342521047: New request from load balancer. Delay: 40.54695667651451
+u: LoadBalancer at 1343.7330342521047: Load balancer service started. Delay: 5.446588256289694
+u: LoadBalancer at 1349.1796225083945: AppService4 selected to receive the request.
+u: AppService4 at 1349.1796225083945: Aplication service request started. Delay: 3.0651944108338895
+u: AppService4 at 1352.2448169192282: Send request to DatabaseService
+u: DatabaseService at 1352.2448169192282: Database service started. Delay: 4.244606461886764
+u: DatabaseService at 1356.489423381115: Database responds to AppService4
+u: AppService3 at 1356.489423381115: Aplication service request started. Delay: 3.5208435479408267
+u: AppService3 at 1360.010266929056: Send request to EmailService
+u: EmailService at 1360.010266929056: Email service started. Delay: 5.315785584420718
+u: EmailService at 1365.3260525134765: Email service completed AppService3
+u: Source at 1384.2799909286193: New request from load balancer. Delay: 40.540089017421245
+u: LoadBalancer at 1384.2799909286193: Load balancer service started. Delay: 5.440980836121064
+u: LoadBalancer at 1389.7209717647404: Service1 selected to receive the request.
+u: AppService1 at 1389.7209717647404: Aplication service request started. Delay: 7.558263011630071
+u: AppService1 at 1397.2792347763705: Send request to DatabaseService
+u: DatabaseService at 1397.2792347763705: Database service started. Delay: 4.241535151370996
+u: DatabaseService at 1401.5207699277414: Database responds to AppService1
+u: AppService1 at 1401.5207699277414: Aplication service request started. Delay: 4.956752243115048
+u: AppService1 at 1406.4775221708564: Send request to EmailService
+u: EmailService at 1406.4775221708564: Email service started. Delay: 5.3118205395945175
+u: EmailService at 1411.789342710451: Email service completed AppService1
+u: Source at 1424.8200799460406: New request from load balancer. Delay: 41.91479283796403
+u: LoadBalancer at 1424.8200799460406: Load balancer service started. Delay: 6.563421805382529
+u: LoadBalancer at 1431.3835017514232: Service1 selected to receive the request.
+u: AppService1 at 1431.3835017514232: Aplication service request started. Delay: 5.028946077863751
+u: AppService1 at 1436.412447829287: Send request to DatabaseService
+u: DatabaseService at 1436.412447829287: Database service started. Delay: 4.856321389703463
+u: DatabaseService at 1441.2687692189904: Database responds to AppService1
+u: AppService1 at 1441.2687692189904: Aplication service request started. Delay: 5.97466359740535
+u: AppService1 at 1447.2434328163959: Send request to EmailService
+u: EmailService at 1447.2434328163959: Email service started. Delay: 6.105506160440901
+u: EmailService at 1453.3489389768367: Email service completed AppService1
+u: Source at 1466.7348727840047: New request from load balancer. Delay: 40.58648768096673
+u: LoadBalancer at 1466.7348727840047: Load balancer service started. Delay: 5.478865186265561
+u: LoadBalancer at 1472.2137379702701: AppService2 selected to receive the request.
+u: AppService2 at 1472.2137379702701: Aplication service request started. Delay: 6.089271123592451
+u: AppService2 at 1478.3030090938626: Send request to DatabaseService
+u: DatabaseService at 1478.3030090938626: Database service started. Delay: 4.2622852645215605
+u: DatabaseService at 1482.565294358384: Database responds to AppService2
+u: AppService2 at 1482.565294358384: Aplication service request started. Delay: 7.253493847910008
+u: AppService2 at 1489.8187882062941: Send request to EmailService
+u: EmailService at 1489.8187882062941: Email service started. Delay: 5.338608820482537
+u: EmailService at 1495.1573970267766: Email service completed AppService2
+u: Source at 1507.3213604649713: New request from load balancer. Delay: 42.91839003857725
+u: LoadBalancer at 1507.3213604649713: Load balancer service started. Delay: 7.382855488311859
+u: LoadBalancer at 1514.7042159532832: AppService3 selected to receive the request.
+u: AppService3 at 1514.7042159532832: Aplication service request started. Delay: 4.482291955529318
+u: AppService3 at 1519.1865079088125: Send request to DatabaseService
+u: DatabaseService at 1519.1865079088125: Database service started. Delay: 5.3051437022233925
+u: DatabaseService at 1524.4916516110359: Database responds to AppService3
+u: AppService3 at 1524.4916516110359: Aplication service request started. Delay: 4.390837527266088
+u: AppService3 at 1528.882489138302: Send request to EmailService
+u: EmailService at 1528.882489138302: Email service started. Delay: 6.684933274372897
+u: EmailService at 1535.567422412675: Email service completed AppService3
+u: Source at 1550.2397505035485: New request from load balancer. Delay: 36.66595901638987
+u: LoadBalancer at 1550.2397505035485: Load balancer service started. Delay: 2.277766936209416
+u: LoadBalancer at 1552.517517439758: AppService4 selected to receive the request.
+u: AppService4 at 1552.517517439758: Aplication service request started. Delay: 3.915422474925682
+u: AppService4 at 1556.4329399146836: Send request to DatabaseService
+u: DatabaseService at 1556.4329399146836: Database service started. Delay: 2.5089715441754974
+u: DatabaseService at 1558.941911458859: Database responds to AppService4
+u: AppService3 at 1558.941911458859: Aplication service request started. Delay: 3.267618774039995
+u: AppService3 at 1562.2095302328992: Send request to EmailService
+u: EmailService at 1562.2095302328992: Email service started. Delay: 3.0750905406234468
+u: EmailService at 1565.2846207735226: Email service completed AppService3
+u: Source at 1586.9057095199385: New request from load balancer. Delay: 39.52811750483862
+u: LoadBalancer at 1586.9057095199385: Load balancer service started. Delay: 4.614709556101087
+u: LoadBalancer at 1591.5204190760396: AppService3 selected to receive the request.
+u: AppService3 at 1591.5204190760396: Aplication service request started. Delay: 3.365014618040567
+u: AppService3 at 1594.8854336940801: Send request to DatabaseService
+u: DatabaseService at 1594.8854336940801: Database service started. Delay: 3.788967732685387
+u: DatabaseService at 1598.6744014267656: Database responds to AppService3
+u: AppService3 at 1598.6744014267656: Aplication service request started. Delay: 3.9669469432585966
+u: AppService3 at 1602.6413483700242: Send request to EmailService
+u: EmailService at 1602.6413483700242: Email service started. Delay: 4.727558514392704
+u: EmailService at 1607.368906884417: Email service completed AppService3
+u: Source at 1626.433827024777: New request from load balancer. Delay: 39.67229978254468
+u: LoadBalancer at 1626.433827024777: Load balancer service started. Delay: 4.732433892878459
+u: LoadBalancer at 1631.1662609176553: AppService4 selected to receive the request.
+u: AppService4 at 1631.1662609176553: Aplication service request started. Delay: 1.603270536246198
+u: AppService4 at 1632.7695314539014: Send request to DatabaseService
+u: DatabaseService at 1632.7695314539014: Database service started. Delay: 3.853448007505688
+u: DatabaseService at 1636.622979461407: Database responds to AppService4
+u: AppService3 at 1636.622979461407: Aplication service request started. Delay: 4.165947775249265
+u: AppService3 at 1640.7889272366565: Send request to EmailService
+u: EmailService at 1640.7889272366565: Email service started. Delay: 4.810802191238672
+u: EmailService at 1645.5997294278952: Email service completed AppService3
+u: Source at 1666.1061268073217: New request from load balancer. Delay: 40.849801312629694
+u: LoadBalancer at 1666.1061268073217: Load balancer service started. Delay: 5.6938598662300395
+u: LoadBalancer at 1671.7999866735518: AppService2 selected to receive the request.
+u: AppService2 at 1671.7999866735518: Aplication service request started. Delay: 4.087449414924871
+u: AppService2 at 1675.8874360884765: Send request to DatabaseService
+u: DatabaseService at 1675.8874360884765: Database service started. Delay: 4.3800427004817095
+u: DatabaseService at 1680.2674787889582: Database responds to AppService2
+u: AppService2 at 1680.2674787889582: Aplication service request started. Delay: 6.108280311523358
+u: AppService2 at 1686.3757591004817: Send request to EmailService
+u: EmailService at 1686.3757591004817: Email service started. Delay: 5.490633016604452
+u: EmailService at 1691.8663921170862: Email service completed AppService2
+u: Source at 1706.9559281199515: New request from load balancer. Delay: 40.53800382554205
+u: LoadBalancer at 1706.9559281199515: Load balancer service started. Delay: 5.439278284081121
+u: LoadBalancer at 1712.3952064040327: AppService2 selected to receive the request.
+u: AppService2 at 1712.3952064040327: Aplication service request started. Delay: 8.16894754755258
+u: AppService2 at 1720.5641539515852: Send request to DatabaseService
+u: DatabaseService at 1720.5641539515852: Database service started. Delay: 4.240602625213393
+u: DatabaseService at 1724.8047565767986: Database responds to AppService2
+u: AppService2 at 1724.8047565767986: Aplication service request started. Delay: 5.7595305484744195
+u: AppService2 at 1730.564287125273: Send request to EmailService
+u: EmailService at 1730.564287125273: Email service started. Delay: 5.310616653501752
+u: EmailService at 1735.8749037787748: Email service completed AppService2
+u: Source at 1747.4939319454936: New request from load balancer. Delay: 36.35464952370425
+u: LoadBalancer at 1747.4939319454936: Load balancer service started. Delay: 2.023583799821264
+u: LoadBalancer at 1749.5175157453148: AppService2 selected to receive the request.
+u: AppService2 at 1749.5175157453148: Aplication service request started. Delay: 6.644120688679949
+u: AppService2 at 1756.1616364339948: Send request to DatabaseService
+u: DatabaseService at 1756.1616364339948: Database service started. Delay: 2.369749706638294
+u: DatabaseService at 1758.531386140633: Database responds to AppService2
+u: AppService2 at 1758.531386140633: Aplication service request started. Delay: 8.128587150882254
+u: AppService2 at 1766.6599732915151: Send request to EmailService
+u: EmailService at 1766.6599732915151: Email service started. Delay: 2.8953559212201196
+u: EmailService at 1769.5553292127352: Email service completed AppService2
+u: Source at 1783.8485814691978: New request from load balancer. Delay: 39.96054432442752
+u: LoadBalancer at 1783.8485814691978: Load balancer service started. Delay: 4.967784575796877
+u: LoadBalancer at 1788.8163660449948: AppService3 selected to receive the request.
+u: AppService3 at 1788.8163660449948: Aplication service request started. Delay: 4.670362113960507
+u: AppService3 at 1793.4867281589552: Send request to DatabaseService
+u: DatabaseService at 1793.4867281589552: Database service started. Delay: 3.982354885464351
+u: DatabaseService at 1797.4690830444194: Database responds to AppService3
+u: AppService3 at 1797.4690830444194: Aplication service request started. Delay: 4.065255587152024
+u: AppService3 at 1801.5343386315715: Send request to EmailService
+u: EmailService at 1801.5343386315715: Email service started. Delay: 4.97722025508717
+u: EmailService at 1806.5115588866586: Email service completed AppService3
+u: Source at 1823.8091257936253: New request from load balancer. Delay: 38.33627804878103
+u: LoadBalancer at 1823.8091257936253: Load balancer service started. Delay: 3.6415767152153107
+u: LoadBalancer at 1827.4507025088405: AppService2 selected to receive the request.
+u: AppService2 at 1827.4507025088405: Aplication service request started. Delay: 4.68777601316524
+u: AppService2 at 1832.1384785220057: Send request to DatabaseService
+u: DatabaseService at 1832.1384785220057: Database service started. Delay: 3.255960924283161
+u: DatabaseService at 1835.394439446289: Database responds to AppService2
+u: AppService2 at 1835.394439446289: Aplication service request started. Delay: 7.320810916733429
+u: AppService2 at 1842.7152503630225: Send request to EmailService
+u: EmailService at 1842.7152503630225: Email service started. Delay: 4.0394496836070415
+u: EmailService at 1846.7547000466295: Email service completed AppService2
+u: Source at 1862.1454038424063: New request from load balancer. Delay: 38.903321362065164
+u: LoadBalancer at 1862.1454038424063: Load balancer service started. Delay: 4.104565641749732
+u: LoadBalancer at 1866.249969484156: AppService2 selected to receive the request.
+u: AppService2 at 1866.249969484156: Aplication service request started. Delay: 7.070352650015884
+u: AppService2 at 1873.3203221341719: Send request to DatabaseService
+u: DatabaseService at 1873.3203221341719: Database service started. Delay: 3.5095504032211657
+u: DatabaseService at 1876.829872537393: Database responds to AppService2
+u: AppService2 at 1876.829872537393: Aplication service request started. Delay: 3.994291409242085
+u: AppService2 at 1880.824163946635: Send request to EmailService
+u: EmailService at 1880.824163946635: Email service started. Delay: 4.366832293173811
+u: EmailService at 1885.1909962398088: Email service completed AppService2
+u: Source at 1901.0487252044713: New request from load balancer. Delay: 39.927393120769715
+u: LoadBalancer at 1901.0487252044713: Load balancer service started. Delay: 4.940716731356642
+u: LoadBalancer at 1905.989441935828: AppService3 selected to receive the request.
+u: AppService3 at 1905.989441935828: Aplication service request started. Delay: 4.466507474281278
+u: AppService3 at 1910.4559494101093: Send request to DatabaseService
+u: DatabaseService at 1910.4559494101093: Database service started. Delay: 3.967529216481394
+u: DatabaseService at 1914.4234786265906: Database responds to AppService3
+u: AppService3 at 1914.4234786265906: Aplication service request started. Delay: 5.144089999665635
+u: AppService3 at 1919.5675686262562: Send request to EmailService
+u: EmailService at 1919.5675686262562: Email service started. Delay: 4.9580803987313775
+u: EmailService at 1924.5256490249876: Email service completed AppService3
+u: Source at 1940.976118325241: New request from load balancer. Delay: 41.25275168449828
+u: LoadBalancer at 1940.976118325241: Load balancer service started. Delay: 6.022867467144291
+u: LoadBalancer at 1946.9989857923854: Service1 selected to receive the request.
+u: AppService1 at 1946.9989857923854: Aplication service request started. Delay: 4.3937112857285126
+u: AppService1 at 1951.392697078114: Send request to DatabaseService
+u: DatabaseService at 1951.392697078114: Database service started. Delay: 4.560247585093102
+u: DatabaseService at 1955.952944663207: Database responds to AppService1
+u: AppService1 at 1955.952944663207: Aplication service request started. Delay: 5.315785584420718
+u: AppService1 at 1961.2687302476277: Send request to EmailService
+u: EmailService at 1961.2687302476277: Email service started. Delay: 5.723276522272836
+u: EmailService at 1966.9920067699004: Email service completed AppService1
+u: Source at 1982.2288700097392: New request from load balancer. Delay: 42.27503568514075
+u: LoadBalancer at 1982.2288700097392: Load balancer service started. Delay: 6.857558858405987
+u: LoadBalancer at 1989.0864288681453: AppService4 selected to receive the request.
+u: AppService4 at 1989.0864288681453: Aplication service request started. Delay: 3.079076758873373
+u: AppService4 at 1992.1655056270185: Send request to DatabaseService
+u: DatabaseService at 1992.1655056270185: Database service started. Delay: 5.017426888642504
+u: DatabaseService at 1997.1829325156612: Database responds to AppService4
+u: AppService3 at 1997.1829325156612: Aplication service request started. Delay: 3.9806590151461725
+u: AppService3 at 2001.1635915308073: Send request to EmailService
+u: EmailService at 2001.1635915308073: Email service started. Delay: 6.313492465232015
+u: EmailService at 2007.4770839960393: Email service completed AppService3
+u: Source at 2024.50390569488: New request from load balancer. Delay: 41.205293938546646
+u: LoadBalancer at 2024.50390569488: Load balancer service started. Delay: 5.984118379836252
+u: LoadBalancer at 2030.4880240747161: AppService4 selected to receive the request.
+u: AppService4 at 2030.4880240747161: Aplication service request started. Delay: 4.583975330453409
+u: AppService4 at 2035.0719994051694: Send request to DatabaseService
+u: DatabaseService at 2035.0719994051694: Database service started. Delay: 4.5390238358917525
+u: DatabaseService at 2039.6110232410613: Database responds to AppService4
+u: AppService3 at 2039.6110232410613: Aplication service request started. Delay: 4.01294507955707
+u: AppService3 at 2043.6239683206184: Send request to EmailService
+u: EmailService at 2043.6239683206184: Email service started. Delay: 5.695876779872532
+u: EmailService at 2049.319845100491: Email service completed AppService3
+u: Source at 2065.7091996334266: New request from load balancer. Delay: 39.60552364614348
+u: LoadBalancer at 2065.7091996334266: Load balancer service started. Delay: 4.677911405819318
+u: LoadBalancer at 2070.387111039246: AppService2 selected to receive the request.
+u: AppService2 at 2070.387111039246: Aplication service request started. Delay: 4.261020913073923
+u: AppService2 at 2074.64813195232: Send request to DatabaseService
+u: DatabaseService at 2074.64813195232: Database service started. Delay: 3.823584811452113
+u: DatabaseService at 2078.4717167637723: Database responds to AppService2
+u: AppService2 at 2078.4717167637723: Aplication service request started. Delay: 5.9094804761411766
+u: AppService2 at 2084.3811972399135: Send request to EmailService
+u: EmailService at 2084.3811972399135: Email service started. Delay: 4.772248970911997
+u: EmailService at 2089.1534462108257: Email service completed AppService2
+u: Source at 2105.31472327957: New request from load balancer. Delay: 39.52018312600136
+u: LoadBalancer at 2105.31472327957: Load balancer service started. Delay: 4.608231162908682
+u: LoadBalancer at 2109.922954442479: Service1 selected to receive the request.
+u: AppService1 at 2109.922954442479: Aplication service request started. Delay: 5.3118205395945175
+u: AppService1 at 2115.2347749820733: Send request to DatabaseService
+u: DatabaseService at 2115.2347749820733: Database service started. Delay: 3.7854193705975185
+u: DatabaseService at 2119.020194352671: Database responds to AppService1
+u: AppService1 at 2119.020194352671: Aplication service request started. Delay: 6.105506160440901
+u: AppService1 at 2125.125700513112: Send request to EmailService
+u: EmailService at 2125.125700513112: Email service started. Delay: 4.722977598635161
+u: EmailService at 2129.848678111747: Email service completed AppService1
+u: Source at 2144.8349064055715: New request from load balancer. Delay: 42.77643732553487
+u: LoadBalancer at 2144.8349064055715: Load balancer service started. Delay: 7.266951583459342
+u: LoadBalancer at 2152.101857989031: AppService4 selected to receive the request.
+u: AppService4 at 2152.101857989031: Aplication service request started. Delay: 2.824385942678059
+u: AppService4 at 2154.926243931709: Send request to DatabaseService
+u: DatabaseService at 2154.926243931709: Database service started. Delay: 5.241660519032736
+u: DatabaseService at 2160.167904450742: Database responds to AppService4
+u: AppService3 at 2160.167904450742: Aplication service request started. Delay: 4.43588281179857
+u: AppService3 at 2164.60378726254: Send request to EmailService
+u: EmailService at 2164.60378726254: Email service started. Delay: 6.602976837285682
+u: EmailService at 2171.2067640998257: Email service completed AppService3
+u: Source at 2187.6113437311064: New request from load balancer. Delay: 41.307528262739346
+u: LoadBalancer at 2187.6113437311064: Load balancer service started. Delay: 6.067592355993045
+u: LoadBalancer at 2193.6789360870994: AppService4 selected to receive the request.
+u: AppService4 at 2193.6789360870994: Aplication service request started. Delay: 3.470399241261027
+u: AppService4 at 2197.1493353283604: Send request to DatabaseService
+u: DatabaseService at 2197.1493353283604: Database service started. Delay: 4.584744415597476
+u: DatabaseService at 2201.734079743958: Database responds to AppService4
+u: AppService3 at 2201.734079743958: Aplication service request started. Delay: 3.7288594441796015
+u: AppService3 at 2205.4629391881376: Send request to EmailService
+u: EmailService at 2205.4629391881376: Email service started. Delay: 5.754901794465605
+u: EmailService at 2211.2178409826033: Email service completed AppService3
+u: Source at 2228.9188719938456: New request from load balancer. Delay: 38.60454188193582
+u: LoadBalancer at 2228.9188719938456: Load balancer service started. Delay: 3.860613217772759
+u: LoadBalancer at 2232.7794852116185: AppService2 selected to receive the request.
+u: AppService2 at 2232.7794852116185: Aplication service request started. Delay: 6.454466699359099
+u: AppService2 at 2239.233951910978: Send request to DatabaseService
+u: DatabaseService at 2239.233951910978: Database service started. Delay: 3.3759321576509134
+u: DatabaseService at 2242.6098840686286: Database responds to AppService2
+u: AppService2 at 2242.6098840686286: Aplication service request started. Delay: 7.835862257565091
+u: AppService2 at 2250.445746326194: Send request to EmailService
+u: EmailService at 2250.445746326194: Email service started. Delay: 4.194331879892798
+u: EmailService at 2254.6400782060864: Email service completed AppService2
+u: Source at 2267.5234138757814: New request from load balancer. Delay: 39.14090138991205
+u: LoadBalancer at 2267.5234138757814: Load balancer service started. Delay: 4.298548922183428
+u: LoadBalancer at 2271.8219627979647: AppService4 selected to receive the request.
+u: AppService4 at 2271.8219627979647: Aplication service request started. Delay: 4.554500264205151
+u: AppService4 at 2276.37646306217: Send request to DatabaseService
+u: DatabaseService at 2276.37646306217: Database service started. Delay: 3.615799421693552
+u: DatabaseService at 2279.9922624838637: Database responds to AppService4
+u: AppService3 at 2279.9922624838637: Aplication service request started. Delay: 4.141223606615845
+u: AppService3 at 2284.1334860904794: Send request to EmailService
+u: EmailService at 2284.1334860904794: Email service started. Delay: 4.50399918620529
+u: EmailService at 2288.637485276685: Email service completed AppService3
+u: Source at 2306.6643152656934: New request from load balancer. Delay: 37.37264171828947
+u: LoadBalancer at 2306.6643152656934: Load balancer service started. Delay: 2.854770946111208
+u: LoadBalancer at 2309.5190862118047: Service1 selected to receive the request.
+u: AppService1 at 2309.5190862118047: Aplication service request started. Delay: 5.338608820482537
+u: AppService1 at 2314.857695032287: Send request to DatabaseService
+u: DatabaseService at 2314.857695032287: Database service started. Delay: 2.825009656169643
+u: DatabaseService at 2317.682704688457: Database responds to AppService1
+u: AppService1 at 2317.682704688457: Aplication service request started. Delay: 6.684933274372897
+u: AppService1 at 2324.3676379628296: Send request to EmailService
+u: EmailService at 2324.3676379628296: Email service started. Delay: 3.483093988796834
+u: EmailService at 2327.8507319516266: Email service completed AppService1
+u: Source at 2344.0369569839827: New request from load balancer. Delay: 40.57252731614124
+u: LoadBalancer at 2344.0369569839827: Load balancer service started. Delay: 5.4674665961170525
+u: LoadBalancer at 2349.5044235800997: AppService2 selected to receive the request.
+u: AppService2 at 2349.5044235800997: Aplication service request started. Delay: 6.178709785432041
+u: AppService2 at 2355.683133365532: Send request to DatabaseService
+u: DatabaseService at 2355.683133365532: Database service started. Delay: 4.256041999573466
+u: DatabaseService at 2359.9391753651053: Database responds to AppService2
+u: AppService2 at 2359.9391753651053: Aplication service request started. Delay: 7.2775833345430865
+u: AppService2 at 2367.2167586996484: Send request to EmailService
+u: EmailService at 2367.2167586996484: Email service started. Delay: 5.330548800092561
+u: EmailService at 2372.547307499741: Email service completed AppService2
+u: Source at 2384.6094843001238: New request from load balancer. Delay: 39.52684897767421
+u: LoadBalancer at 2384.6094843001238: Load balancer service started. Delay: 4.613673808008535
+u: LoadBalancer at 2389.2231581081323: AppService4 selected to receive the request.
+u: AppService4 at 2389.2231581081323: Aplication service request started. Delay: 2.0416870958816533
+u: AppService4 at 2391.264845204014: Send request to DatabaseService
+u: DatabaseService at 2391.264845204014: Database service started. Delay: 3.788400430091203
+u: DatabaseService at 2395.053245634105: Database responds to AppService4
+u: AppService3 at 2395.053245634105: Aplication service request started. Delay: 4.139450384662801
+u: AppService3 at 2399.192696018768: Send request to EmailService
+u: EmailService at 2399.192696018768: Email service started. Delay: 4.726826129892859
+u: EmailService at 2403.9195221486607: Email service completed AppService3
+u: Source at 2424.136333277798: New request from load balancer. Delay: 38.76441494304868
+u: LoadBalancer at 2424.136333277798: Load balancer service started. Delay: 3.9911490255538533
+u: LoadBalancer at 2428.127482303352: AppService4 selected to receive the request.
+u: AppService4 at 2428.127482303352: Aplication service request started. Delay: 3.964583911058636
+u: AppService4 at 2432.0920662144104: Send request to DatabaseService
+u: DatabaseService at 2432.0920662144104: Database service started. Delay: 3.4474295641347776
+u: DatabaseService at 2435.539495778545: Database responds to AppService4
+u: AppService3 at 2435.539495778545: Aplication service request started. Delay: 4.494397384858129
+u: AppService3 at 2440.0338931634033: Send request to EmailService
+u: EmailService at 2440.0338931634033: Email service started. Delay: 4.286634634762473
+u: EmailService at 2444.3205277981656: Email service completed AppService3
+u: Source at 2462.9007482208463: New request from load balancer. Delay: 45.41674176622313
+u: LoadBalancer at 2462.9007482208463: Load balancer service started. Delay: 9.422751131889598
+u: LoadBalancer at 2472.323499352736: AppService2 selected to receive the request.
+u: AppService2 at 2472.323499352736: Aplication service request started. Delay: 9.133219503164732
+u: AppService2 at 2481.4567188559004: Send request to DatabaseService
+u: DatabaseService at 2481.4567188559004: Database service started. Delay: 6.4224405611674396
+u: DatabaseService at 2487.879159417068: Database responds to AppService2
+u: AppService2 at 2487.879159417068: Aplication service request started. Delay: 5.947032531555964
+u: AppService2 at 2493.826191948624: Send request to EmailService
+u: EmailService at 2493.826191948624: Email service started. Delay: 8.127357316859614
+u: EmailService at 2501.9535492654836: Email service completed AppService2
+u: Source at 2508.317489987069: New request from load balancer. Delay: 40.32080734981554
+u: LoadBalancer at 2508.317489987069: Load balancer service started. Delay: 5.261938104260872
+u: LoadBalancer at 2513.57942809133: AppService4 selected to receive the request.
+u: AppService4 at 2513.57942809133: Aplication service request started. Delay: 3.781675054532176
+u: AppService4 at 2517.361103145862: Send request to DatabaseService
+u: DatabaseService at 2517.361103145862: Database service started. Delay: 4.14346940837382
+u: DatabaseService at 2521.504572554236: Database responds to AppService4
+u: AppService3 at 2521.504572554236: Aplication service request started. Delay: 4.151430468075995
+u: AppService3 at 2525.656003022312: Send request to EmailService
+u: EmailService at 2525.656003022312: Email service started. Delay: 5.185218209774011
+u: EmailService at 2530.841221232086: Email service completed AppService3
+u: Source at 2548.6382973368845: New request from load balancer. Delay: 43.57983330290204
+u: LoadBalancer at 2548.6382973368845: Load balancer service started. Delay: 7.9229216521107215
+u: LoadBalancer at 2556.5612189889953: AppService3 selected to receive the request.
+u: AppService3 at 2556.5612189889953: Aplication service request started. Delay: 4.753525067809821
+u: AppService3 at 2561.314744056805: Send request to DatabaseService
+u: DatabaseService at 2561.314744056805: Database service started. Delay: 5.60095012268131
+u: DatabaseService at 2566.9156941794863: Database responds to AppService3
+u: AppService3 at 2566.9156941794863: Aplication service request started. Delay: 3.1391543196603315
+u: AppService3 at 2570.054848499147: Send request to EmailService
+u: EmailService at 2570.054848499147: Email service started. Delay: 7.066817721084478
+u: EmailService at 2577.1216662202314: Email service completed AppService3
+u: Source at 2592.2181306397865: New request from load balancer. Delay: 37.80396317809141
+u: LoadBalancer at 2592.2181306397865: Load balancer service started. Delay: 3.206943443320248
+u: LoadBalancer at 2595.4250740831067: AppService2 selected to receive the request.
+u: AppService2 at 2595.4250740831067: Aplication service request started. Delay: 6.0354515604105305
+u: AppService2 at 2601.460525643517: Send request to DatabaseService
+u: DatabaseService at 2601.460525643517: Database service started. Delay: 3.0179024770239593
+u: DatabaseService at 2604.478428120541: Database responds to AppService2
+u: AppService2 at 2604.478428120541: Aplication service request started. Delay: 7.193714242254279
+u: AppService2 at 2611.6721423627955: Send request to EmailService
+u: EmailService at 2611.6721423627955: Email service started. Delay: 3.732117549720746
+u: EmailService at 2615.4042599125164: Email service completed AppService2
+u: Source at 2630.022093817878: New request from load balancer. Delay: 40.3459504023503
+u: LoadBalancer at 2630.022093817878: Load balancer service started. Delay: 5.28246732068959
+u: LoadBalancer at 2635.304561138568: Service1 selected to receive the request.
+u: AppService1 at 2635.304561138568: Aplication service request started. Delay: 3.0750905406234468
+u: AppService1 at 2638.3796516791913: Send request to DatabaseService
+u: DatabaseService at 2638.3796516791913: Database service started. Delay: 4.154713723299734
+u: DatabaseService at 2642.534365402491: Database responds to AppService1
+u: AppService1 at 2642.534365402491: Aplication service request started. Delay: 4.727558514392704
+u: AppService1 at 2647.2619239168835: Send request to EmailService
+u: EmailService at 2647.2619239168835: Email service started. Delay: 5.199734557923205
+u: EmailService at 2652.461658474807: Email service completed AppService1
+u: Source at 2670.3680442202285: New request from load balancer. Delay: 42.37600979878536
+u: LoadBalancer at 2670.3680442202285: Load balancer service started. Delay: 6.9400038769590235
+u: LoadBalancer at 2677.3080480971876: Service1 selected to receive the request.
+u: AppService1 at 2677.3080480971876: Aplication service request started. Delay: 4.810802191238672
+u: AppService1 at 2682.118850288426: Send request to DatabaseService
+u: DatabaseService at 2682.118850288426: Database service started. Delay: 5.0625838850579346
+u: DatabaseService at 2687.181434173484: Database responds to AppService1
+u: AppService1 at 2687.181434173484: Aplication service request started. Delay: 5.490633016604452
+u: AppService1 at 2692.6720671900885: Send request to EmailService
+u: EmailService at 2692.6720671900885: Email service started. Delay: 6.371789896925918
+u: EmailService at 2699.043857087014: Email service completed AppService1
+u: Source at 2712.7440540190137: New request from load balancer. Delay: 39.39355059377851
+u: LoadBalancer at 2712.7440540190137: Load balancer service started. Delay: 4.5048361333145
+u: LoadBalancer at 2717.2488901523284: AppService3 selected to receive the request.
+u: AppService3 at 2717.2488901523284: Aplication service request started. Delay: 3.878160463658211
+u: AppService3 at 2721.1270506159867: Send request to DatabaseService
+u: DatabaseService at 2721.1270506159867: Database service started. Delay: 3.7287875805548705
+u: DatabaseService at 2724.8558381965418: Database responds to AppService3
+u: AppService3 at 2724.8558381965418: Aplication service request started. Delay: 3.915388167683133
+u: AppService3 at 2728.7712263642247: Send request to EmailService
+u: EmailService at 2728.7712263642247: Email service started. Delay: 4.649866272068131
+u: EmailService at 2733.421092636293: Email service completed AppService3
+u: Source at 2752.137604612792: New request from load balancer. Delay: 38.51115902449097
+u: LoadBalancer at 2752.137604612792: Load balancer service started. Delay: 3.7843664339517797
+u: LoadBalancer at 2755.9219710467437: Service1 selected to receive the request.
+u: AppService1 at 2755.9219710467437: Aplication service request started. Delay: 5.310616653501752
+u: AppService1 at 2761.2325877002454: Send request to DatabaseService
+u: DatabaseService at 2761.2325877002454: Database service started. Delay: 3.3341700742149434
+u: DatabaseService at 2764.5667577744603: Database responds to AppService1
+u: AppService1 at 2764.5667577744603: Aplication service request started. Delay: 2.8953559212201196
+u: AppService1 at 2767.4621136956803: Send request to EmailService
+u: EmailService at 2767.4621136956803: Email service started. Delay: 4.1404172620093185
+u: EmailService at 2771.6025309576894: Email service completed AppService1
+u: Source at 2790.648763637283: New request from load balancer. Delay: 43.107699719286785
+u: LoadBalancer at 2790.648763637283: Load balancer service started. Delay: 7.537426195347713
+u: LoadBalancer at 2798.1861898326306: AppService4 selected to receive the request.
+u: AppService4 at 2798.1861898326306: Aplication service request started. Delay: 1.5352375480799896
+u: AppService4 at 2799.721427380711: Send request to DatabaseService
+u: DatabaseService at 2799.721427380711: Database service started. Delay: 5.389805565196453
+u: DatabaseService at 2805.1112329459074: Database responds to AppService4
+u: AppService3 at 2805.1112329459074: Aplication service request started. Delay: 4.219417755426667
+u: AppService3 at 2809.330650701334: Send request to EmailService
+u: EmailService at 2809.330650701334: Email service started. Delay: 6.79423126949075
+u: EmailService at 2816.124881970825: Email service completed AppService3
+u: Source at 2833.75646335657: New request from load balancer. Delay: 38.02831111162623
+u: LoadBalancer at 2833.75646335657: Load balancer service started. Delay: 3.390122763989628
+u: LoadBalancer at 2837.1465861205593: AppService4 selected to receive the request.
+u: AppService4 at 2837.1465861205593: Aplication service request started. Delay: 1.730029236081134
+u: AppService4 at 2838.8766153566403: Send request to DatabaseService
+u: DatabaseService at 2838.8766153566403: Database service started. Delay: 3.118233923023051
+u: DatabaseService at 2841.9948492796634: Database responds to AppService4
+u: AppService3 at 2841.9948492796634: Aplication service request started. Delay: 4.138911990434683
+u: AppService3 at 2846.133761270098: Send request to EmailService
+u: EmailService at 2846.133761270098: Email service started. Delay: 3.8616448895392095
+u: EmailService at 2849.9954061596372: Email service completed AppService3
+u: Source at 2871.7847744681962: New request from load balancer. Delay: 38.46684791767021
+u: LoadBalancer at 2871.7847744681962: Load balancer service started. Delay: 3.7481865667355025
+u: LoadBalancer at 2875.5329610349318: AppService2 selected to receive the request.
+u: AppService2 at 2875.5329610349318: Aplication service request started. Delay: 5.257451006613396
+u: AppService2 at 2880.790412041545: Send request to DatabaseService
+u: DatabaseService at 2880.790412041545: Database service started. Delay: 3.314353544813047
+u: DatabaseService at 2884.104765586358: Database responds to AppService2
+u: AppService2 at 2884.104765586358: Aplication service request started. Delay: 6.386756774978671
+u: AppService2 at 2890.4915223613366: Send request to EmailService
+u: EmailService at 2890.4915223613366: Email service started. Delay: 4.114834232558261
+u: EmailService at 2894.606356593895: Email service completed AppService2
+u: Source at 2910.2516223858665: New request from load balancer. Delay: 37.73358771947108
+u: LoadBalancer at 2910.2516223858665: Load balancer service started. Delay: 3.1494821219755287
+u: LoadBalancer at 2913.401104507842: AppService4 selected to receive the request.
+u: AppService4 at 2913.401104507842: Aplication service request started. Delay: 2.9338938865171933
+u: AppService4 at 2916.334998394359: Send request to DatabaseService
+u: DatabaseService at 2916.334998394359: Database service started. Delay: 2.9864296151394036
+u: DatabaseService at 2919.3214280094985: Database responds to AppService4
+u: AppService3 at 2919.3214280094985: Aplication service request started. Delay: 3.058774554281153
+u: AppService3 at 2922.3802025637797: Send request to EmailService
+u: EmailService at 2922.3802025637797: Email service started. Delay: 3.691486259741956
+u: EmailService at 2926.0716888235215: Email service completed AppService3
+u: Source at 2947.9852101053375: New request from load balancer. Delay: 39.923531471385935
+u: LoadBalancer at 2947.9852101053375: Load balancer service started. Delay: 4.9375637078380405
+u: LoadBalancer at 2952.9227738131754: AppService4 selected to receive the request.
+u: AppService4 at 2952.9227738131754: Aplication service request started. Delay: 3.3318955504985293
+u: AppService4 at 2956.2546693636737: Send request to DatabaseService
+u: DatabaseService at 2956.2546693636737: Database service started. Delay: 3.965802234375912
+u: DatabaseService at 2960.2204715980497: Database responds to AppService4
+u: AppService3 at 2960.2204715980497: Aplication service request started. Delay: 3.9898125883729616
+u: AppService3 at 2964.2102841864225: Send request to EmailService
+u: EmailService at 2964.2102841864225: Email service started. Delay: 4.955850874420134
+u: EmailService at 2969.166135060843: Email service completed AppService3
+u: Source at 2987.9087415767235: New request from load balancer. Delay: 36.28319934412623
+u: LoadBalancer at 2987.9087415767235: Load balancer service started. Delay: 1.9652449724891379
+u: LoadBalancer at 2989.8739865492125: Service1 selected to receive the request.
+u: AppService1 at 2989.8739865492125: Aplication service request started. Delay: 4.97722025508717
+u: AppService1 at 2994.8512068042996: Send request to DatabaseService
+u: DatabaseService at 2994.8512068042996: Database service started. Delay: 2.3377962149300897
+u: DatabaseService at 2997.18900301923: Database responds to AppService1
+u: AppService1 at 2997.18900301923: Aplication service request started. Delay: 4.0394496836070415
+u: AppService1 at 3001.228452702837: Send request to EmailService
+u: EmailService at 3001.228452702837: Email service started. Delay: 2.854104140807102
+u: EmailService at 3004.082556843644: Email service completed AppService1
+u: Source at 3024.19194092085: New request from load balancer. Delay: 41.12259411422079
+u: LoadBalancer at 3024.19194092085: Load balancer service started. Delay: 5.916594256030862
+u: LoadBalancer at 3030.1085351768807: Service1 selected to receive the request.
+u: AppService1 at 3030.1085351768807: Aplication service request started. Delay: 4.366832293173811
+u: AppService1 at 3034.4753674700546: Send request to DatabaseService
+u: DatabaseService at 3034.4753674700546: Database service started. Delay: 4.5020393501077685
+u: DatabaseService at 3038.9774068201623: Database responds to AppService1
+u: AppService1 at 3038.9774068201623: Aplication service request started. Delay: 4.9580803987313775
+u: AppService1 at 3043.9354872188937: Send request to EmailService
+u: EmailService at 3043.9354872188937: Email service started. Delay: 5.648130014036061
+u: EmailService at 3049.58361723293: Email service completed AppService1
+u: Source at 3065.3145350350705: New request from load balancer. Delay: 39.93293007014039
+u: LoadBalancer at 3065.3145350350705: Load balancer service started. Delay: 4.945237631586562
+u: LoadBalancer at 3070.259772666657: AppService2 selected to receive the request.
+u: AppService2 at 3070.259772666657: Aplication service request started. Delay: 6.381900606662944
+u: AppService2 at 3076.64167327332: Send request to DatabaseService
+u: DatabaseService at 3076.64167327332: Database service started. Delay: 3.9700054155175515
+u: DatabaseService at 3080.6116786888374: Database responds to AppService2
+u: AppService2 at 3080.6116786888374: Aplication service request started. Delay: 7.353963000291801
+u: AppService2 at 3087.9656416891294: Send request to EmailService
+u: EmailService at 3087.9656416891294: Email service started. Delay: 4.961277157941022
+u: EmailService at 3092.9269188470703: Email service completed AppService2
+u: Source at 3105.2474651052107: New request from load balancer. Delay: 41.94237288575436
+u: LoadBalancer at 3105.2474651052107: Load balancer service started. Delay: 6.585940820105157
+u: LoadBalancer at 3111.8334059253157: Service1 selected to receive the request.
+u: AppService1 at 3111.8334059253157: Aplication service request started. Delay: 5.723276522272836
+u: AppService1 at 3117.5566824475886: Send request to DatabaseService
+u: DatabaseService at 3117.5566824475886: Database service started. Delay: 4.868655562039837
+u: DatabaseService at 3122.4253380096284: Database responds to AppService1
+u: AppService1 at 3122.4253380096284: Aplication service request started. Delay: 6.313492465232015
+u: AppService1 at 3128.7388304748606: Send request to EmailService
+u: EmailService at 3128.7388304748606: Email service started. Delay: 6.121429508456911
+u: EmailService at 3134.8602599833175: Email service completed AppService1
+u: Source at 3147.189837990965: New request from load balancer. Delay: 38.84122486293006
+u: LoadBalancer at 3147.189837990965: Load balancer service started. Delay: 4.053864062518338
+u: LoadBalancer at 3151.243702053483: AppService3 selected to receive the request.
+u: AppService3 at 3151.243702053483: Aplication service request started. Delay: 3.570428839347283
+u: AppService3 at 3154.8141308928302: Send request to DatabaseService
+u: DatabaseService at 3154.8141308928302: Database service started. Delay: 3.481780004574996
+u: DatabaseService at 3158.295910897405: Database responds to AppService3
+u: AppService3 at 3158.295910897405: Aplication service request started. Delay: 3.7168387932757967
+u: AppService3 at 3162.0127496906807: Send request to EmailService
+u: EmailService at 3162.0127496906807: Email service started. Delay: 4.330980862682425
+u: EmailService at 3166.343730553363: Email service completed AppService3
+u: Source at 3186.031062853895: New request from load balancer. Delay: 39.53907743792911
+u: LoadBalancer at 3186.031062853895: Load balancer service started. Delay: 4.623658303996668
+u: LoadBalancer at 3190.654721157892: AppService3 selected to receive the request.
+u: AppService3 at 3190.654721157892: Aplication service request started. Delay: 3.981252984394735
+u: AppService3 at 3194.6359741422866: Send request to DatabaseService
+u: DatabaseService at 3194.6359741422866: Database service started. Delay: 3.793869163769223
+u: DatabaseService at 3198.429843306056: Database responds to AppService3
+u: AppService3 at 3198.429843306056: Aplication service request started. Delay: 4.32345909406634
+u: AppService3 at 3202.7533024001223: Send request to EmailService
+u: EmailService at 3202.7533024001223: Email service started. Delay: 4.733886234712798
+u: EmailService at 3207.487188634835: Email service completed AppService3
+u: Source at 3225.570140291824: New request from load balancer. Delay: 42.15298740970525
+u: LoadBalancer at 3225.570140291824: Load balancer service started. Delay: 6.757906858804779
+u: LoadBalancer at 3232.3280471506287: AppService3 selected to receive the request.
+u: AppService3 at 3232.3280471506287: Aplication service request started. Delay: 4.587411688038513
+u: AppService3 at 3236.9154588386673: Send request to DatabaseService
+u: DatabaseService at 3236.9154588386673: Database service started. Delay: 4.962845240560426
+u: DatabaseService at 3241.8783040792277: Database responds to AppService3
+u: AppService3 at 3241.8783040792277: Aplication service request started. Delay: 4.311205556751728
+u: AppService3 at 3246.1895096359794: Send request to EmailService
+u: EmailService at 3246.1895096359794: Email service started. Delay: 6.243027860555202
+u: EmailService at 3252.4325374965347: Email service completed AppService3
+u: Source at 3267.723127701529: New request from load balancer. Delay: 39.84053009928757
+u: LoadBalancer at 3267.723127701529: Load balancer service started. Delay: 4.869793371307419
+u: LoadBalancer at 3272.5929210728364: Service1 selected to receive the request.
+u: AppService1 at 3272.5929210728364: Aplication service request started. Delay: 5.695876779872532
+u: AppService1 at 3278.2887978527087: Send request to DatabaseService
+u: DatabaseService at 3278.2887978527087: Database service started. Delay: 3.928682892328374
+u: DatabaseService at 3282.217480745037: Database responds to AppService1
+u: AppService1 at 3282.217480745037: Aplication service request started. Delay: 4.772248970911997
+u: AppService1 at 3286.989729715949: Send request to EmailService
+u: EmailService at 3286.989729715949: Email service started. Delay: 4.907930009896037
+u: EmailService at 3291.897659725845: Email service completed AppService1
+u: Source at 3307.5636578008166: New request from load balancer. Delay: 41.68147175727428
+u: LoadBalancer at 3307.5636578008166: Load balancer service started. Delay: 6.3729159407409846
+u: LoadBalancer at 3313.9365737415574: AppService4 selected to receive the request.
+u: AppService4 at 3313.9365737415574: Aplication service request started. Delay: 4.3407242279210125
+u: AppService4 at 3318.2772979694782: Send request to DatabaseService
+u: DatabaseService at 3318.2772979694782: Database service started. Delay: 4.751977030302263
+u: DatabaseService at 3323.0292749997807: Database responds to AppService4
+u: AppService3 at 3323.0292749997807: Aplication service request started. Delay: 3.8981466434027388
+u: AppService3 at 3326.9274216431836: Send request to EmailService
+u: EmailService at 3326.9274216431836: Email service started. Delay: 5.970798171697059
+u: EmailService at 3332.8982198148806: Email service completed AppService3
+u: Source at 3349.245129558091: New request from load balancer. Delay: 40.32994640807291
+u: LoadBalancer at 3349.245129558091: Load balancer service started. Delay: 5.269400114080911
+u: LoadBalancer at 3354.5145296721716: AppService4 selected to receive the request.
+u: AppService4 at 3354.5145296721716: Aplication service request started. Delay: 3.130511174304049
+u: AppService4 at 3357.6450408464757: Send request to DatabaseService
+u: DatabaseService at 3357.6450408464757: Database service started. Delay: 4.147556519476581
+u: DatabaseService at 3361.792597365952: Database responds to AppService4
+u: AppService3 at 3361.792597365952: Aplication service request started. Delay: 3.876111815851598
+u: AppService3 at 3365.668709181804: Send request to EmailService
+u: EmailService at 3365.668709181804: Email service started. Delay: 5.190494647519042
+u: EmailService at 3370.859203829323: Email service completed AppService3
+u: Source at 3389.5750759661637: New request from load balancer. Delay: 40.12323388986282
+u: LoadBalancer at 3389.5750759661637: Load balancer service started. Delay: 5.100620049727415
+u: LoadBalancer at 3394.675696015891: Service1 selected to receive the request.
+u: AppService1 at 3394.675696015891: Aplication service request started. Delay: 4.722977598635161
+u: AppService1 at 3399.398673614526: Send request to DatabaseService
+u: DatabaseService at 3399.398673614526: Database service started. Delay: 4.055111870972997
+u: DatabaseService at 3403.4537854854993: Database responds to AppService1
+u: AppService1 at 3403.4537854854993: Aplication service request started. Delay: 6.602976837285682
+u: AppService1 at 3410.056762322785: Send request to EmailService
+u: EmailService at 3410.056762322785: Email service started. Delay: 5.0711491194855824
+u: EmailService at 3415.1279114422705: Email service completed AppService1
+u: Source at 3429.6983098560263: New request from load balancer. Delay: 39.5360099761128
+u: LoadBalancer at 3429.6983098560263: Load balancer service started. Delay: 4.621153731911528
+u: LoadBalancer at 3434.3194635879377: AppService2 selected to receive the request.
+u: AppService2 at 3434.3194635879377: Aplication service request started. Delay: 6.414709416293943
+u: AppService2 at 3440.7341730042317: Send request to DatabaseService
+u: DatabaseService at 3440.7341730042317: Database service started. Delay: 3.7924973531412944
+u: DatabaseService at 3444.526670357373: Database responds to AppService2
+u: AppService2 at 3444.526670357373: Aplication service request started. Delay: 8.063613386425242
+u: AppService2 at 3452.5902837437984: Send request to EmailService
+u: EmailService at 3452.5902837437984: Email service started. Delay: 4.732115234807425
+u: EmailService at 3457.3223989786056: Email service completed AppService2
+u: Source at 3469.234319832139: New request from load balancer. Delay: 42.215848651968244
+u: LoadBalancer at 3469.234319832139: Load balancer service started. Delay: 6.80923284818538
+u: LoadBalancer at 3476.0435526803244: AppService2 selected to receive the request.
+u: AppService2 at 3476.0435526803244: Aplication service request started. Delay: 3.6424770117354104
+u: AppService2 at 3479.68602969206: Send request to DatabaseService
+u: DatabaseService at 3479.68602969206: Database service started. Delay: 4.990957642730452
+u: DatabaseService at 3484.6769873347903: Database responds to AppService2
+u: AppService2 at 3484.6769873347903: Aplication service request started. Delay: 5.666328687748159
+u: AppService2 at 3490.3433160225386: Send request to EmailService
+u: EmailService at 3490.3433160225386: Email service started. Delay: 6.279320815697334
+u: EmailService at 3496.622636838236: Email service completed AppService2
+u: Source at 3511.4501684841075: New request from load balancer. Delay: 37.9790807322994
+u: LoadBalancer at 3511.4501684841075: Load balancer service started. Delay: 3.349926327591496
+u: LoadBalancer at 3514.800094811699: Service1 selected to receive the request.
+u: AppService1 at 3514.800094811699: Aplication service request started. Delay: 5.754901794465605
+u: AppService1 at 3520.554996606165: Send request to DatabaseService
+u: DatabaseService at 3520.554996606165: Database service started. Delay: 3.0962174280764723
+u: DatabaseService at 3523.6512140342415: Database responds to AppService1
+u: AppService1 at 3523.6512140342415: Aplication service request started. Delay: 4.194331879892798
+u: AppService1 at 3527.845545914134: Send request to EmailService
+u: EmailService at 3527.845545914134: Email service started. Delay: 3.833221716782557
+u: EmailService at 3531.678767630917: Email service completed AppService1
+u: Source at 3549.429249216407: New request from load balancer. Delay: 40.08630051373338
+u: LoadBalancer at 3549.429249216407: Load balancer service started. Delay: 5.070464074395608
+u: LoadBalancer at 3554.4997132908024: AppService3 selected to receive the request.
+u: AppService3 at 3554.4997132908024: Aplication service request started. Delay: 4.716873034905681
+u: AppService3 at 3559.2165863257082: Send request to DatabaseService
+u: DatabaseService at 3559.2165863257082: Database service started. Delay: 4.038594763040197
+u: DatabaseService at 3563.2551810887485: Database responds to AppService3
+u: AppService3 at 3563.2551810887485: Aplication service request started. Delay: 4.337602345752334
+u: AppService3 at 3567.5927834345007: Send request to EmailService
+u: EmailService at 3567.5927834345007: Email service started. Delay: 5.049825624835168
+u: EmailService at 3572.642609059336: Email service completed AppService3
+u: Source at 3589.5155497301403: New request from load balancer. Delay: 41.113734020988176
+u: LoadBalancer at 3589.5155497301403: Load balancer service started. Delay: 5.909360020199735
+u: LoadBalancer at 3595.42490975034: AppService4 selected to receive the request.
+u: AppService4 at 3595.42490975034: Aplication service request started. Delay: 3.9330149485625574
+u: AppService4 at 3599.3579246989025: Send request to DatabaseService
+u: DatabaseService at 3599.3579246989025: Database service started. Delay: 4.498076995956748
+u: DatabaseService at 3603.856001694859: Database responds to AppService4
+u: AppService3 at 3603.856001694859: Aplication service request started. Delay: 3.6396942632271663
+u: AppService3 at 3607.4956959580863: Send request to EmailService
+u: EmailService at 3607.4956959580863: Email service started. Delay: 5.643014636823168
+u: EmailService at 3613.1387105949093: Email service completed AppService3
+u: Source at 3630.6292837511282: New request from load balancer. Delay: 40.09977612281519
+u: LoadBalancer at 3630.6292837511282: Load balancer service started. Delay: 5.081466863136829
+u: LoadBalancer at 3635.710750614265: AppService2 selected to receive the request.
+u: AppService2 at 3635.710750614265: Aplication service request started. Delay: 5.768280954041036
+u: AppService2 at 3641.4790315683063: Send request to DatabaseService
+u: DatabaseService at 3641.4790315683063: Database service started. Delay: 4.044621238629228
+u: DatabaseService at 3645.5236528069354: Database responds to AppService2
+u: AppService2 at 3645.5236528069354: Aplication service request started. Delay: 6.600900270821686
+u: AppService2 at 3652.124553077757: Send request to EmailService
+u: EmailService at 3652.124553077757: Email service started. Delay: 5.057605771366048
+u: EmailService at 3657.182158849123: Email service completed AppService2
+u: Source at 3670.7290598739432: New request from load balancer. Delay: 37.8002202915398
+u: LoadBalancer at 3670.7290598739432: Load balancer service started. Delay: 3.2038873892480586
+u: LoadBalancer at 3673.932947263191: AppService3 selected to receive the request.
+u: AppService3 at 3673.932947263191: Aplication service request started. Delay: 3.7781816926919625
+u: AppService3 at 3677.711128955883: Send request to DatabaseService
+u: DatabaseService at 3677.711128955883: Database service started. Delay: 3.0162286072716658
+u: DatabaseService at 3680.727357563155: Database responds to AppService3
+u: AppService3 at 3680.727357563155: Aplication service request started. Delay: 3.3216190086943325
+u: AppService3 at 3684.048976571849: Send request to EmailService
+u: EmailService at 3684.048976571849: Email service started. Delay: 3.729956593162629
+u: EmailService at 3687.7789331650115: Email service completed AppService3
+u: Source at 3708.529280165483: New request from load balancer. Delay: 39.0400226770787
+u: LoadBalancer at 3708.529280165483: Load balancer service started. Delay: 4.216181798066611
+u: LoadBalancer at 3712.74546196355: AppService3 selected to receive the request.
+u: AppService3 at 3712.74546196355: Aplication service request started. Delay: 4.147825917377591
+u: AppService3 at 3716.893287880928: Send request to DatabaseService
+u: DatabaseService at 3716.893287880928: Database service started. Delay: 3.5706850898179434
+u: DatabaseService at 3720.4639729707455: Database responds to AppService3
+u: AppService3 at 3720.4639729707455: Aplication service request started. Delay: 3.877832931352747
+u: AppService3 at 3724.3418059020983: Send request to EmailService
+u: EmailService at 3724.3418059020983: Email service started. Delay: 4.445756834195453
+u: EmailService at 3728.7875627362937: Email service completed AppService3
+u: Source at 3747.569302842562: New request from load balancer. Delay: 40.54122345695778
+u: LoadBalancer at 3747.569302842562: Load balancer service started. Delay: 5.441907102123911
+u: LoadBalancer at 3753.011209944686: Service1 selected to receive the request.
+u: AppService1 at 3753.011209944686: Aplication service request started. Delay: 4.50399918620529
+u: AppService1 at 3757.5152091308914: Send request to DatabaseService
+u: DatabaseService at 3757.5152091308914: Database service started. Delay: 4.242042488155005
+u: DatabaseService at 3761.7572516190467: Database responds to AppService1
+u: AppService1 at 3761.7572516190467: Aplication service request started. Delay: 3.483093988796834
+u: AppService1 at 3765.2403456078437: Send request to EmailService
+u: EmailService at 3765.2403456078437: Email service started. Delay: 5.312475508566314
+u: EmailService at 3770.55282111641: Email service completed AppService1
+u: Source at 3788.1105262995197: New request from load balancer. Delay: 40.96747466396828
+u: LoadBalancer at 3788.1105262995197: Load balancer service started. Delay: 5.789939755264306
+u: LoadBalancer at 3793.900466054784: AppService3 selected to receive the request.
+u: AppService3 at 3793.900466054784: Aplication service request started. Delay: 3.6809733101069853
+u: AppService3 at 3797.5814393648907: Send request to DatabaseService
+u: DatabaseService at 3797.5814393648907: Database service started. Delay: 4.43266782302837
+u: DatabaseService at 3802.014107187919: Database responds to AppService3
+u: AppService3 at 3802.014107187919: Aplication service request started. Delay: 5.398596710085889
+u: AppService3 at 3807.4127038980046: Send request to EmailService
+u: EmailService at 3807.4127038980046: Email service started. Delay: 5.558571757676233
+u: EmailService at 3812.971275655681: Email service completed AppService3
+u: Source at 3829.078000963488: New request from load balancer. Delay: 41.210001426658714
+u: LoadBalancer at 3829.078000963488: Load balancer service started. Delay: 5.987962027784513
+u: LoadBalancer at 3835.0659629912725: AppService2 selected to receive the request.
+u: AppService2 at 3835.0659629912725: Aplication service request started. Delay: 6.380426153345089
+u: AppService2 at 3841.4463891446176: Send request to DatabaseService
+u: DatabaseService at 3841.4463891446176: Database service started. Delay: 4.541129088576123
+u: DatabaseService at 3845.987518233194: Database responds to AppService2
+u: AppService2 at 3845.987518233194: Aplication service request started. Delay: 3.422347958409666
+u: AppService2 at 3849.4098661916037: Send request to EmailService
+u: EmailService at 3849.4098661916037: Email service started. Delay: 5.698594649401241
+u: EmailService at 3855.108460841005: Email service completed AppService2
+u: Source at 3870.288002390147: New request from load balancer. Delay: 38.75927493587745
+u: LoadBalancer at 3870.288002390147: Load balancer service started. Delay: 3.986952227272603
+u: LoadBalancer at 3874.2749546174196: Service1 selected to receive the request.
+u: AppService1 at 3874.2749546174196: Aplication service request started. Delay: 5.330548800092561
+u: AppService1 at 3879.605503417512: Send request to DatabaseService
+u: DatabaseService at 3879.605503417512: Database service started. Delay: 3.445130883046838
+u: DatabaseService at 3883.0506343005586: Database responds to AppService1
+u: AppService1 at 3883.0506343005586: Aplication service request started. Delay: 4.726826129892859
+u: AppService1 at 3887.7774604304514: Send request to EmailService
+u: EmailService at 3887.7774604304514: Email service started. Delay: 4.283667050238529
+u: EmailService at 3892.0611274806897: Email service completed AppService1
+u: Source at 3909.0472773260244: New request from load balancer. Delay: 37.534583898368524
+u: LoadBalancer at 3909.0472773260244: Load balancer service started. Delay: 2.9869961824537374
+u: LoadBalancer at 3912.0342735084782: AppService3 selected to receive the request.
+u: AppService3 at 3912.0342735084782: Aplication service request started. Delay: 4.082832101545101
+u: AppService3 at 3916.1171056100234: Send request to DatabaseService
+u: DatabaseService at 3916.1171056100234: Database service started. Delay: 2.8974324007858985
+u: DatabaseService at 3919.0145380108092: Database responds to AppService3
+u: AppService3 at 3919.0145380108092: Aplication service request started. Delay: 4.924308984289219
+u: AppService3 at 3923.9388469950986: Send request to EmailService
+u: EmailService at 3923.9388469950986: Email service started. Delay: 3.5765913500586306
+u: EmailService at 3927.5154383451572: Email service completed AppService3
+u: Source at 3946.581861224393: New request from load balancer. Delay: 40.142711874725364
+u: LoadBalancer at 3946.581861224393: Load balancer service started. Delay: 5.116523757771043
+u: LoadBalancer at 3951.698384982164: Service1 selected to receive the request.
+u: AppService1 at 3951.698384982164: Aplication service request started. Delay: 4.286634634762473
+u: AppService1 at 3955.9850196169264: Send request to DatabaseService
+u: DatabaseService at 3955.9850196169264: Database service started. Delay: 4.063822690616468
+u: DatabaseService at 3960.048842307543: Database responds to AppService1
+u: AppService1 at 3960.048842307543: Aplication service request started. Delay: 8.127357316859614
+u: AppService1 at 3968.1761996244027: Send request to EmailService
+u: EmailService at 3968.1761996244027: Email service started. Delay: 5.082394739289243
+u: EmailService at 3973.258594363692: Email service completed AppService1
+u: Source at 3986.724573099118: New request from load balancer. Delay: 38.216527067172315
+u: LoadBalancer at 3986.724573099118: Load balancer service started. Delay: 3.5438004481690526
+u: LoadBalancer at 3990.268373547287: Service1 selected to receive the request.
+u: AppService1 at 3990.268373547287: Aplication service request started. Delay: 5.185218209774011
+u: AppService1 at 3995.453591757061: Send request to DatabaseService
+u: DatabaseService at 3995.453591757061: Database service started. Delay: 3.202406657233277
+u: DatabaseService at 3998.6559984142946: Database responds to AppService1
+u: AppService1 at 3998.6559984142946: Aplication service request started. Delay: 7.066817721084478
+u: AppService1 at 4005.722816135379: Send request to EmailService
+u: EmailService at 4005.722816135379: Email service started. Delay: 3.9703114221395257
+u: EmailService at 4009.693127557519: Email service completed AppService1
+u: LoadBalancer at 4024.94110016629: Load balancer service started. Delay: 4.561217038610245
+u: LoadBalancer at 4024.94110016629: AppService4 selected to receive the request.
+u: AppService1 at 4024.94110016629: Aplication service request started. Delay: 3.732117549720746
+u: AppService2 at 4024.94110016629: Aplication service request started. Delay: 5.972100624246403
+u: AppService3 at 4024.94110016629: Aplication service request started. Delay: 3.4329857307393183
+u: DatabaseService at 4024.94110016629: Database service started. Delay: 3.7596686741979126
+u: EmailService at 4024.94110016629: Email service started. Delay: 4.689733592532189
+u: AppService4 at 4024.94110016629: Aplication service request started. Delay: 5.28817999933127
